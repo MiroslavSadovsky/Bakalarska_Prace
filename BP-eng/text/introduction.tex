@@ -2,76 +2,13 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{Introduction}
 
-\section{Accelerators and how do they work (primarily focused on SPS)}
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque turpis tortor, in facilisis tellus porttitor quis. Nam pharetra condimentum vestibulum. Nullam eu risus sit amet urna rhoncus ultrices. Vivamus blandit nibh eget imperdiet semper. Nulla ut euismod felis. Nunc rhoncus molestie placerat. Cras efficitur sed dolor quis convallis. Maecenas eleifend pharetra ligula, et molestie purus porttitor eu. Aliquam eleifend non ligula non ornare. Maecenas auctor odio sit amet diam vehicula bibendum.
+Here comes the introduction of the thesis, for example\,\dots
 
-Phasellus pellentesque felis id ultrices aliquet. Proin fringilla erat purus, et accumsan magna dapibus eu. Ut viverra, nibh vel molestie tempus, lectus mi consectetur est, et pulvinar massa mi et justo. Nullam mauris mauris, tincidunt nec eleifend quis, dignissim at ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc egestas enim vitae nunc dignissim aliquet. Donec fermentum lorem erat, eget placerat dui sagittis laoreet. Proin in risus lacinia, ultrices sem et, auctor dui. Vivamus non orci nulla. Praesent tincidunt justo a eros sollicitudin tempor. Nullam a nisi in nibh eleifend condimentum. Praesent eget pellentesque augue.
+This thesis is devoted to \acs{DSP} (\acl{DSP}),
+especially it analyses the effect happening when the Nyquist condition for \ac{symfs} is not satisfied.%
+\footnote{This sentence is only to demonstrate how abbreviations can be used and typeset.}
 
-Sed at diam mi. Curabitur elementum molestie sapien, eu viverra tortor laoreet vitae. Cras vitae ligula varius, auctor magna ut, fringilla odio. Mauris ornare ac nisl et congue. In non sem mauris. Nulla tincidunt bibendum dolor at cursus. Fusce mollis mi sed turpis luctus, at bibendum dui facilisis. Pellentesque ligula mauris, maximus vel condimentum in, interdum sit amet dui. Nam dolor augue, placerat a diam eu, eleifend faucibus erat. Sed at venenatis purus. Suspendisse potenti. Nullam nec volutpat diam. Donec vel libero lacus. 
-
-\section{Aktuálně implementovaný měřicí řetězec}
-OTR - Optical Transition Radiation, PMT - Photomultiplier tube, 
-OTR - záblesk viditelného světla, který vznikne ve chvíli, kdy rychlá nabitá částice překročí hranici dvou prostředí s různými vlastnostmi. V praxi urychlovačů k tomu dochází typicky tehdy, když částice letící vakuem narazí na tenkou kovovou fólii.
-
-Kde se toto záření bere:
-Jak se letící proton blíží ke kovovému povrchu, jeho elektrické pole v kovu indukuje svůj zrcadlový obraz s opačným nábojem (zrcadlový náboj). Vzniká tak pomyslný elektrický dipól, jehož pole se s přibližováním extrémně rychle mění. V okamžiku, kdy proton fyzicky protne povrch fólie, se toto pole náhle zhroutí a přeskupí. Právě tato prudká skoková změna elektromagnetického pole se uvolní do prostoru jako vyzářená energie – a pokud částice letí dostatečně rychle, velká část této energie má vlnovou délku viditelného světla.
-
-Průchod tenkou diagnostickou fólií svazek částic nevyhnutelně mírně rozptýlí a zhorší jeho kvalitu. Dějí se při tom tři hlavní fyzikální jevy:
-
-Coulombův rozptyl (Rozostření svazku): Toto je nejvýraznější efekt. Kladně nabité částice (např. protony) prolétají kolem kladně nabitých jader atomů kovu ve fólii. Elektromagnetické síly je navzájem odpuzují, čímž se dráha letících protonů nepatrně odchýlí. Svazek se tak po průletu mírně „rozšíří“ do stran a ztratí svou původní dokonalou ostrost (zvětší se jeho divergence).
-
-Ionizační ztráty (Zpomalení a zahřívání): Částice cestou narážejí do elektronů v atomech fólie a vyrážejí je ven. Předají jim tím zlomek své kinetické energie, čímž se prolétající částice nepatrně zpomalí a samotná fólie se zahřeje. Při extrémních energiích urychlovače SPS je ale tento úbytek rychlosti pro experimenty obvykle zanedbatelný.
-
-Jaderné srážky (Ztráta částic): Zcela nepatrné procento částic se trefí čelně přímo do jádra atomu ve fólii. Tyto částice se srážkou roztříští, vytvoří sekundární záření a pro primární svazek jsou nenávratně ztraceny.
-
-Právě proto se OTR fólie vyrábějí z co nejlehčích kovů (často titan nebo hliník) a jsou extrémně tenké, typicky jen jednotky mikrometrů. V případě vyváděného svazku (spill) projdou částice touto fólií pouze jednou na své konečné cestě k experimentu. Zmíněné drobné znehodnocení svazku je tak pro fyziky naprosto přijatelnou daní za to, že získají jeho přesný časový a prostorový profil.
-
-\vspace*{20pt}
-
-Nulla sagittis porta lacus quis sagittis. Etiam mattis aliquam magna, vel auctor sem tempor non. Aliquam erat volutpat. Quisque ultrices metus fringilla magna tincidunt, quis efficitur neque interdum. In ornare est sed posuere ultrices. Curabitur sollicitudin posuere semper. Suspendisse mattis velit ac dui venenatis, a porta odio mattis. Sed id eros augue. Sed enim massa, ullamcorper sed nulla sit amet, suscipit rhoncus nisl. Mauris congue accumsan urna, quis hendrerit felis viverra tristique. Vivamus sed libero enim. Nulla lobortis convallis nibh nec ultricies. Ut vestibulum, tortor sit amet aliquam luctus, tellus nisi malesuada tortor, sit amet viverra lectus nunc id tellus. 
-
-
-\section{Nedostatky momentálního řešení}
-
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida viverra tincidunt. Etiam ultricies eget velit at elementum. Etiam congue, diam ut egestas porttitor, sapien neque eleifend lectus, vitae congue elit odio vitae mi. Proin sodales eros id ligula vestibulum consectetur. Proin elementum sollicitudin nunc nec eleifend. Fusce sit amet aliquet lectus, rutrum cursus libero. Mauris varius ultrices lorem, ac cursus velit dapibus ut. Sed elementum hendrerit nunc in hendrerit. In fringilla, eros nec lacinia dignissim, enim libero lacinia tellus, in rhoncus erat mauris nec enim.
-
-Pellentesque vulputate erat in rutrum tincidunt. Maecenas vel est id lorem lacinia egestas eu quis purus. Curabitur sodales nulla id dui volutpat, nec euismod ligula congue. Pellentesque finibus id orci vitae finibus. Curabitur ultrices odio quis dolor finibus euismod. Sed ornare vulputate nulla, id aliquet tellus porta nec. Ut fringilla, nisl vitae semper finibus, felis elit fermentum arcu, at porttitor purus quam in metus. Nulla at tortor bibendum, mattis ante eget, imperdiet metus. In quis tellus dapibus augue pharetra luctus id sed tellus. Nullam lacinia diam nec sapien posuere convallis.
-
-Pellentesque porttitor mi in dolor pretium suscipit. In sit amet finibus sapien, quis hendrerit tellus. Sed egestas accumsan velit, quis pulvinar elit accumsan rhoncus. Fusce quis sodales diam, id sollicitudin ipsum. Nam vulputate fringilla ipsum, vel interdum est tempus vulputate. Etiam leo nunc, sollicitudin volutpat ex sed, consequat interdum nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque finibus odio eleifend ullamcorper tempor. Quisque vel neque tortor. Cras eleifend fringilla ligula, nec vestibulum est lacinia at. Ut nisl augue, vestibulum non eros vitae, tempus ornare urna. Curabitur rutrum ornare nunc at vestibulum. Nullam ut diam in metus varius posuere volutpat eu risus. Curabitur et interdum sem, imperdiet aliquet nisl. Ut facilisis tortor scelerisque, pretium turpis id, pellentesque leo. Praesent finibus diam lorem, in maximus ligula facilisis eu.
-
-Etiam odio erat, venenatis nec urna eget, efficitur efficitur nulla. Mauris et leo nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus ut mauris erat. Nullam porta nibh tortor, et tempus turpis vehicula a. Fusce non mauris posuere, blandit nisl sit amet, scelerisque felis. Curabitur ac rhoncus urna. Morbi vestibulum tellus leo, ac pulvinar tellus placerat varius. Sed ac vestibulum tellus. Nam enim velit, laoreet quis augue a, luctus feugiat enim. Sed in massa eget arcu pellentesque suscipit. Quisque suscipit lacinia dolor, vel fermentum orci hendrerit et. 
-
-
-\section{seznámení s použitými součáskami pro nové řešení, a proč řeší problém předchozího}
-
-
-\subsection{SDR}
-Phasellus sed ullamcorper quam. Vivamus sagittis ante facilisis tincidunt lacinia. Nam rhoncus turpis facilisis tincidunt ultricies. Curabitur varius vel magna sed rhoncus. Sed aliquam ante sed odio pulvinar vulputate. Suspendisse facilisis dui nec urna rhoncus volutpat. Etiam nunc sapien, malesuada varius nisi at, varius blandit dui. Etiam malesuada velit ut neque posuere sollicitudin.
-
-\subsection{Snímač}
-Proin tempor congue magna. Fusce vitae egestas nisl. Donec et efficitur leo. Integer scelerisque convallis nisi, eget lacinia quam lacinia tempor. Nam non tempus tortor, quis pellentesque lectus. Sed dignissim neque molestie dapibus pretium. Morbi condimentum posuere purus, at convallis augue dapibus vestibulum. Vestibulum quis volutpat quam. Praesent vulputate eros in dolor aliquam, ac blandit libero varius. 
-
-
-\subsection{A/D převodník}
-Proin tempor congue magna. Fusce vitae egestas nisl. Donec et efficitur leo. Integer scelerisque convallis nisi, eget lacinia quam lacinia tempor. Nam non tempus tortor, quis pellentesque lectus. Sed dignissim neque molestie dapibus pretium. Morbi condimentum posuere purus, at convallis augue dapibus vestibulum. Vestibulum quis volutpat quam. Praesent vulputate eros in dolor aliquam, ac blandit libero varius. 
-
-\subsection{FPGA}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada tortor eget est vestibulum ornare. Curabitur ac tortor felis. Vestibulum vehicula lacus quis est bibendum, ut efficitur ante euismod. Aliquam in auctor massa, id aliquet dolor. Nam quis nisi felis. Fusce tincidunt pellentesque orci, id rhoncus mi tempus nec. Aenean placerat mauris sit amet velit tempor, quis malesuada lacus tincidunt. Ut et quam lobortis, viverra metus a, porta massa. Pellentesque in velit rutrum, suscipit dolor eget, molestie ante. Proin quis mauris nisi. Ut non ex sit amet massa ornare aliquam. In interdum fringilla felis sed tempus. Vestibulum gravida condimentum dolor nec dictum. Pellentesque non facilisis ex, sed euismod dolor.
-
-\subsubsection{NCO}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet scelerisque nunc. Cras suscipit dui et erat aliquet scelerisque. Maecenas ultrices semper lobortis. Cras auctor tincidunt sem, varius porttitor diam euismod vitae. Fusce id vulputate ligula. Vestibulum lacinia tortor id iaculis dignissim. Aliquam erat volutpat. Praesent at tristique quam. Nam mollis libero non nisl gravida cursus. Nullam auctor eu velit at sollicitudin. Fusce viverra lectus ac leo hendrerit, in tincidunt odio tempor. 
-
-\subsubsection{mixer}
-Cras luctus rhoncus lacinia. In a malesuada sapien. Mauris fermentum, tellus ut tristique efficitur, ante augue cursus magna, quis euismod nibh orci tincidunt dui. Morbi tincidunt, lorem eu hendrerit placerat, lectus orci commodo massa, vel facilisis dolor elit sed dolor. Etiam pulvinar blandit justo, at feugiat risus varius dictum. Sed pellentesque erat nec mi ornare, et gravida lacus placerat. Sed at sem rutrum, pellentesque nisi sit amet, pharetra sem. Aliquam orci libero, commodo eu cursus pretium, volutpat vel turpis. Nam sollicitudin tortor id ornare sodales. Praesent a commodo leo, vitae volutpat est. Donec vulputate scelerisque neque, id commodo risus dapibus sed. Donec ultricies sollicitudin velit non pharetra. Morbi malesuada ultricies nulla, id egestas purus hendrerit eu. Fusce pretium ac metus vel gravida. Vivamus vitae dui felis. Sed sagittis lacinia libero nec faucibus. 
-
-\subsubsection{CIC filtr}
-Ut cursus nunc at justo mattis cursus. Nam quis ligula nulla. Integer tincidunt at felis a pulvinar. Proin rhoncus condimentum maximus. Suspendisse ac metus euismod, posuere erat eu, tincidunt arcu. Nulla facilisi. Vivamus volutpat, leo vel laoreet facilisis, purus ligula ornare tellus, nec molestie libero lorem a augue. Quisque a erat gravida, bibendum sapien a, dictum nunc. Nunc at nisl id lacus facilisis fringilla a at ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-
-\subsubsection{FIR filtr}
-Donec congue magna porttitor velit tristique hendrerit. Duis vitae condimentum libero, id pulvinar tortor. Aliquam luctus rhoncus dui a interdum. Duis quis mollis arcu. Aenean rhoncus erat accumsan metus mollis, eu interdum arcu varius. Morbi sit amet velit ut nulla molestie tincidunt. Morbi condimentum lacus ac arcu feugiat, in luctus ipsum tristique. Nam varius sit amet sem nec facilisis. Fusce interdum lacus nec efficitur tincidunt. Mauris leo leo, lobortis vitae turpis non, egestas semper est. Aenean hendrerit sapien erat, ac vestibulum nibh egestas vel. Morbi ullamcorper erat commodo leo condimentum faucibus. Quisque id aliquam dui. 
-
-\subsubsection{decimator}
-Nam cursus ultricies diam eu hendrerit. Aliquam erat volutpat. Morbi tellus arcu, porta vitae malesuada sit amet, auctor vitae dolor. In hac habitasse platea dictumst. Aliquam sit amet ultrices lorem. Donec laoreet ornare dapibus. Nunc ut posuere eros, ut laoreet nulla. Nam placerat, tortor eget venenatis tempor, est elit aliquet felis, ac egestas mi lacus vel arcu. Aenean sit amet feugiat lorem, nec ultrices eros.
-
-\subsubsection{FFT}
-Cras luctus rhoncus lacinia. In a malesuada sapien. Mauris fermentum, tellus ut tristique efficitur, ante augue cursus magna, quis euismod nibh orci tincidunt dui. Morbi tincidunt, lorem eu hendrerit placerat, lectus orci commodo massa, vel facilisis dolor elit sed dolor. Etiam pulvinar blandit justo, at feugiat risus varius dictum. Sed pellentesque erat nec mi ornare, et gravida lacus placerat. Sed at sem rutrum, pellentesque nisi sit amet, pharetra sem. Aliquam orci libero, commodo eu cursus pretium, volutpat vel turpis. Nam sollicitudin tortor id ornare sodales. Praesent a commodo leo, vitae volutpat est. Donec vulputate scelerisque neque, id commodo risus dapibus sed. Donec ultricies sollicitudin velit non pharetra. Morbi malesuada ultricies nulla, id egestas purus hendrerit eu. Fusce pretium ac metus vel gravida. Vivamus vitae dui felis. Sed sagittis lacinia libero nec faucibus. 
+The template is set to twoside printing by default.
+Do not be surprised that you find empty pages in your PDF.
+They are there to make the chapters and other important stuff begin on the right side when the document is printed.
+Having a~serious reason to print one-sided, please switch the option \texttt{twoside} to \texttt{oneside}!
