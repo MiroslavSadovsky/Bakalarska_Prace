@@ -1,28 +1,28 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.23)  23 SEP 2026 21:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  8 OCT 2026 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./template-thesis.tex
 (template-thesis.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-08-10>
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@chapter=\count276
-\c@section=\count277
-\c@subsection=\count278
-\c@subsubsection=\count279
-\c@paragraph=\count280
-\c@subparagraph=\count281
-\c@figure=\count282
-\c@table=\count283
+\c@part=\count276
+\c@chapter=\count277
+\c@section=\count278
+\c@subsection=\count279
+\c@subsubsection=\count280
+\c@paragraph=\count281
+\c@subparagraph=\count282
+\c@figure=\count283
+\c@table=\count284
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen150
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -42,13 +42,13 @@ LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
 ) (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
@@ -62,8 +62,8 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
 ) (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
 Package: acronym 2025/01/17 v1.50 Support for acronyms (Tobias Oetiker)
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
@@ -71,14 +71,14 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count284
-\xs_countb=\count285
+\xs_counta=\count285
+\xs_countb=\count286
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
 \AC@clearlist=\toks20
 ) (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2026-06-17 v7.01r Hypertext links for LaTeX
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
@@ -113,7 +113,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -125,51 +125,51 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count286
+\c@section@level=\count287
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count287
+\etb@tempcnta=\count288
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen151
-\Hy@linkcounter=\count288
-\Hy@pagecounter=\count289
+\@linkdim=\dimen153
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
  (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count290
+\Hy@SavedSpaceFactor=\count291
  (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-06-17 v7.01r Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4066.
-Package hyperref Info: Option `breaklinks' set `true' on input line 4066.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `unicode' set `true' on input line 4070.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4070.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4070.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count291
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count292
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen152
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen154
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -179,26 +179,26 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count292
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
+\Fld@menulength=\count293
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
+File: hpdftex.def 2026-06-17 v7.01r Hyperref driver for pdfTeX
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -221,21 +221,21 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count298
-\calc@Bcount=\count299
-\calc@Adimen=\dimen155
-\calc@Bdimen=\dimen156
+\calc@Acount=\count299
+\calc@Bcount=\count300
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count300
+\calc@Ccount=\count301
 \calc@Cskip=\skip54
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
-\ESO@tempdima=\dimen157
-\ESO@tempdimb=\dimen158
+\ESO@tempdima=\dimen159
+\ESO@tempdimb=\dimen160
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -255,29 +255,29 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ))
-\AM@pagewidth=\dimen159
-\AM@pageheight=\dimen160
-\AM@fboxrule=\dimen161
+\AM@pagewidth=\dimen161
+\AM@pageheight=\dimen162
+\AM@fboxrule=\dimen163
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count301
+\pdfpages@includegraphics@status=\count302
 \AM@pagebox=\box53
 \AM@global@opts=\toks21
-\AM@pagecnt=\count302
+\AM@pagecnt=\count303
 \AM@toc@title=\toks22
 \AM@lof@heading=\toks23
-\c@AM@survey=\count303
+\c@AM@survey=\count304
 \AM@templatesizebox=\box54
 ) (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip55
-\enit@outerparindent=\dimen162
+\enit@outerparindent=\dimen164
 \enit@toks=\toks24
 \enit@inbox=\box55
-\enit@count@id=\count304
-\enitdp@description=\count305
+\enit@count@id=\count305
+\enitdp@description=\count306
 ) (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
 Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
 )
@@ -286,32 +286,32 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/dirtree\dirtree.tex
 `dirtree' v0.32, 2012/12/11 (jcc)
-\DT@offset=\dimen163
-\DT@width=\dimen164
-\DT@sep=\dimen165
-\DT@all=\dimen166
-\DT@rulewidth=\dimen167
-\DT@dotwidth=\dimen168
-\DTbaselineskip=\dimen169
-\DT@counti=\count306
-\DT@countii=\count307
-\DT@countiii=\count308
-\DT@countiv=\count309
-\DT@indent=\dimen170
-\DT@parskip=\dimen171
-\DT@baselineskip=\dimen172
+\DT@offset=\dimen165
+\DT@width=\dimen166
+\DT@sep=\dimen167
+\DT@all=\dimen168
+\DT@rulewidth=\dimen169
+\DT@dotwidth=\dimen170
+\DTbaselineskip=\dimen171
+\DT@counti=\count307
+\DT@countii=\count308
+\DT@countiii=\count309
+\DT@countiv=\count310
+\DT@indent=\dimen172
+\DT@parskip=\dimen173
+\DT@baselineskip=\dimen174
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e
 .sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count310
+\c@AlgoLine=\count311
 \algocf@hangindent=\skip56
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count311
+\c@checkoddpage=\count312
 ) (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
@@ -326,12 +326,12 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip62
 \algomargin=\skip63
 \skipalgocfslide=\skip64
-\algowidth=\dimen173
-\inoutsize=\dimen174
-\inoutindent=\dimen175
-\interspacetitleruled=\dimen176
-\interspacealgoruled=\dimen177
-\interspacetitleboxruled=\dimen178
+\algowidth=\dimen175
+\inoutsize=\dimen176
+\inoutindent=\dimen177
+\interspacetitleruled=\dimen178
+\interspacealgoruled=\dimen179
+\interspacetitleboxruled=\dimen180
 \algocf@ruledwidth=\skip65
 \algocf@inoutbox=\box56
 \algocf@inputbox=\box57
@@ -348,47 +348,41 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip72
 \algotitleheightruledefault=\skip73
 \algotitleheightrule=\skip74
-\c@algocfline=\count312
-\c@algocfproc=\count313
-\c@algocf=\count314
+\c@algocfline=\count313
+\c@algocfproc=\count314
+\c@algocf=\count315
 \algocf@algoframe=\box62
 \algocf@algobox=\box63
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count315
+\lst@mode=\count316
 \lst@gtempboxa=\box64
 \lst@token=\toks25
-\lst@length=\count316
-\lst@currlwidth=\dimen179
-\lst@column=\count317
-\lst@pos=\count318
-\lst@lostspace=\dimen180
-\lst@width=\dimen181
-\lst@newlines=\count319
-\lst@lineno=\count320
-\lst@maxwidth=\dimen182
+\lst@length=\count317
+\lst@currlwidth=\dimen181
+\lst@column=\count318
+\lst@pos=\count319
+\lst@lostspace=\dimen182
+\lst@width=\dimen183
+\lst@newlines=\count320
+\lst@lineno=\count321
+\lst@maxwidth=\dimen184
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\lst@fmtcurrindent=\dimen183
-\lst@newlinesensured=\count321
-\c@lstnumber=\count322
-\lst@skipnumbers=\count323
+\lst@fmtcurrindent=\dimen185
+\lst@newlinesensured=\count322
+\c@lstnumber=\count323
+\lst@skipnumbers=\count324
 \lst@framebox=\box65
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
-==> First Aid for listings.sty no longer applied!
-    Expected:
-        2024/09/23 1.10c (Carsten Heinz)
-    but found:
-        2025/11/14 1.11b (Carsten Heinz)
-    so I'm assuming it got fixed.
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -401,14 +395,14 @@ Package: thesis 2025/09/25v4.13LaTeX document class
 
 Styl 'thesis.sty' pro psani kvalifikacnich praci v(4.13) na VUT v Brne
 
-\type@semestral=\count324
-\type@bachelor=\count325
-\type@diploma=\count326
-\type@treatise=\count327
-\type@phd=\count328
-\lang@czech=\count329
-\lang@slovak=\count330
-\lang@english=\count331
+\type@semestral=\count325
+\type@bachelor=\count326
+\type@diploma=\count327
+\type@treatise=\count328
+\type@phd=\count329
+\lang@czech=\count330
+\lang@slovak=\count331
+\lang@english=\count332
 
 LaTeX Warning: Typ prace zmenen na semestralni/Document type changed to semestr
 al.
@@ -418,32 +412,32 @@ Package 'thesis' Warning: Jazyk nastaven na:/Language changed to: 'english' on
 input line 200.
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2026/09/09 v26.12 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
-\babel@savecnt=\count332
+\babel@savecnt=\count333
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2068.
+ne 2095.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2070.
+ne 2097.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2072.
+e 2099.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2073.
+e 2100.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2074.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2076.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
 on input line 2101.
-\U@D=\dimen184
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2103.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2128.
+\U@D=\dimen186
 \l@unhyphenated=\language79
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count333
+\bbl@dirlevel=\count334
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4196.
+(babel)             Reported on input line 4331.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -456,17 +450,17 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 -czech.tex)
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
 -english.tex)
-Package babel Info: Importing font and identification data for czech
-(babel)             from babel-cs.ini. Reported on input line 4320.
+Package babel Info: Importing font and identification data for 'czech'
+(babel)             from babel-cs.ini. Reported on input line 4459.
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/babel-czech\czech.ldf
 Language: czech 2008/07/06 v3.1a Czech support from the babel system
 Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count334
+\cs@wordlen=\count335
 Package babel Info: Making - an active character on input line 226.
 )
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 4320.
+Package babel Info: Importing font and identification data for 'english'
+(babel)             from babel-en.ini. Reported on input line 4459.
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
 df
@@ -898,17 +892,17 @@ Package: geometry 2026/03/07 v6.0 Page Geometry
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count335
-\Gm@cntv=\count336
-\c@Gm@tempcnt=\count337
-\Gm@bindingoffset=\dimen185
-\Gm@wd@mp=\dimen186
-\Gm@odd@mp=\dimen187
-\Gm@even@mp=\dimen188
-\Gm@layoutwidth=\dimen189
-\Gm@layoutheight=\dimen190
-\Gm@layouthoffset=\dimen191
-\Gm@layoutvoffset=\dimen192
+\Gm@cnth=\count336
+\Gm@cntv=\count337
+\c@Gm@tempcnt=\count338
+\Gm@bindingoffset=\dimen187
+\Gm@wd@mp=\dimen188
+\Gm@odd@mp=\dimen189
+\Gm@even@mp=\dimen190
+\Gm@layoutwidth=\dimen191
+\Gm@layoutheight=\dimen192
+\Gm@layouthoffset=\dimen193
+\Gm@layoutvoffset=\dimen194
 \Gm@dimlist=\toks26
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
@@ -916,10 +910,10 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \thesis@tmp=\skip75
 )){C:/Users/miri-/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{./vafle.map
 }
-(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
+(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2026-08-10 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count339
 ) (template-thesis.aux (text/introduction.aux) (text/objectives.aux)
 (text/solution.aux) (text/results.aux) (text/conclusion.aux)
 (text/bibliography.aux) (text/abbreviation.aux) (text/appendix.aux))
@@ -955,16 +949,16 @@ LaTeX Font Info:    ... okay on input line 127.
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen193
+\scratchcounter=\count340
+\scratchdimen=\dimen195
 \scratchbox=\box66
-\nofMPsegments=\count340
-\nofMParguments=\count341
+\nofMPsegments=\count341
+\nofMParguments=\count342
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen194
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen196
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
 \everyMPtoPDFconversion=\toks28
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -996,7 +990,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count345
+\c@lstlisting=\count346
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1033,83 +1027,102 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<pdf/titlepage-example.pdf, id=80, 597.45204pt x 845.1575pt>
-File: pdf/titlepage-example.pdf Graphic file (type pdf)
-<use pdf/titlepage-example.pdf>
-Package pdftex.def Info: pdf/titlepage-example.pdf  used on input line 142.
-(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-<pdf/titlepage-example.pdf, id=82, page=1, 597.45204pt x 845.1575pt>
-File: pdf/titlepage-example.pdf Graphic file (type pdf)
-<use pdf/titlepage-example.pdf, page 1>
-Package pdftex.def Info: pdf/titlepage-example.pdf , page1 used on input line 1
+Package babel Info: Main language set to 'english'.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/TitulniList_color.pdf, id=112, 597.51233pt x 845.0471pt>
+File: pdf/TitulniList_color.pdf Graphic file (type pdf)
+<use pdf/TitulniList_color.pdf>
+Package pdftex.def Info: pdf/TitulniList_color.pdf  used on input line 142.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/TitulniList_color.pdf, id=114, page=1, 597.51233pt x 845.0471pt>
+File: pdf/TitulniList_color.pdf Graphic file (type pdf)
+<use pdf/TitulniList_color.pdf, page 1>
+Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
 42.
-(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-File: pdf/titlepage-example.pdf Graphic file (type pdf)
-<use pdf/titlepage-example.pdf, page 1>
-Package pdftex.def Info: pdf/titlepage-example.pdf , page1 used on input line 1
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: pdf/TitulniList_color.pdf Graphic file (type pdf)
+<use pdf/TitulniList_color.pdf, page 1>
+Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
 42.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
-File: pdf/titlepage-example.pdf Graphic file (type pdf)
-<use pdf/titlepage-example.pdf, page 1>
-Package pdftex.def Info: pdf/titlepage-example.pdf , page1 used on input line 1
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: pdf/TitulniList_color.pdf Graphic file (type pdf)
+<use pdf/TitulniList_color.pdf, page 1>
+Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
 42.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
-File: pdf/titlepage-example.pdf Graphic file (type pdf)
-<use pdf/titlepage-example.pdf, page 1>
-Package pdftex.def Info: pdf/titlepage-example.pdf , page1 used on input line 1
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: pdf/TitulniList_color.pdf Graphic file (type pdf)
+<use pdf/TitulniList_color.pdf, page 1>
+Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
 42.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
-File: pdf/titlepage-example.pdf Graphic file (type pdf)
-<use pdf/titlepage-example.pdf, page 1>
-Package pdftex.def Info: pdf/titlepage-example.pdf , page1 used on input line 1
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: pdf/TitulniList_color.pdf Graphic file (type pdf)
+<use pdf/TitulniList_color.pdf, page 1>
+Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
 42.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [1
 
 
- <./pdf/titlepage-example.pdf>] [2
+ <./pdf/TitulniList_color.pdf>] [2
 
 ]
-<pdf/assignment-example.pdf, id=102, 597.45204pt x 845.1575pt>
-File: pdf/assignment-example.pdf Graphic file (type pdf)
-<use pdf/assignment-example.pdf>
-Package pdftex.def Info: pdf/assignment-example.pdf  used on input line 150.
-(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-<pdf/assignment-example.pdf, id=104, page=1, 597.45204pt x 845.1575pt>
-File: pdf/assignment-example.pdf Graphic file (type pdf)
-<use pdf/assignment-example.pdf, page 1>
-Package pdftex.def Info: pdf/assignment-example.pdf , page1 used on input line 
-150.
-(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-File: pdf/assignment-example.pdf Graphic file (type pdf)
-<use pdf/assignment-example.pdf, page 1>
-Package pdftex.def Info: pdf/assignment-example.pdf , page1 used on input line 
-150.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
-File: pdf/assignment-example.pdf Graphic file (type pdf)
-<use pdf/assignment-example.pdf, page 1>
-Package pdftex.def Info: pdf/assignment-example.pdf , page1 used on input line 
-150.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
-File: pdf/assignment-example.pdf Graphic file (type pdf)
-<use pdf/assignment-example.pdf, page 1>
-Package pdftex.def Info: pdf/assignment-example.pdf , page1 used on input line 
-150.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
-File: pdf/assignment-example.pdf Graphic file (type pdf)
-<use pdf/assignment-example.pdf, page 1>
-Package pdftex.def Info: pdf/assignment-example.pdf , page1 used on input line 
-150.
-(pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
- [3
 
- <./pdf/assignment-example.pdf>]
-[4
+pdfTeX warning: pdflatex.exe (file ./pdf/Zadani_color.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<pdf/Zadani_color.pdf, id=133, 597.51233pt x 845.0471pt>
+File: pdf/Zadani_color.pdf Graphic file (type pdf)
+<use pdf/Zadani_color.pdf>
+Package pdftex.def Info: pdf/Zadani_color.pdf  used on input line 150.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/Zadani_color.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/Zadani_color.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<pdf/Zadani_color.pdf, id=135, page=1, 597.51233pt x 845.0471pt>
+File: pdf/Zadani_color.pdf Graphic file (type pdf)
+<use pdf/Zadani_color.pdf, page 1>
+Package pdftex.def Info: pdf/Zadani_color.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: pdf/Zadani_color.pdf Graphic file (type pdf)
+<use pdf/Zadani_color.pdf, page 1>
+Package pdftex.def Info: pdf/Zadani_color.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: pdf/Zadani_color.pdf Graphic file (type pdf)
+<use pdf/Zadani_color.pdf, page 1>
+Package pdftex.def Info: pdf/Zadani_color.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: pdf/Zadani_color.pdf Graphic file (type pdf)
+<use pdf/Zadani_color.pdf, page 1>
+Package pdftex.def Info: pdf/Zadani_color.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: pdf/Zadani_color.pdf Graphic file (type pdf)
+<use pdf/Zadani_color.pdf, page 1>
+Package pdftex.def Info: pdf/Zadani_color.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+[3
+
+ <./pdf/Zadani_color.pdf>] [4
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 59.
- (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+
+(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
@@ -1173,7 +1186,7 @@ c}{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 ] (template-thesis.toc
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 30.
 )
 \tf@toc=\write4
 \openout4 = `template-thesis.toc'.
@@ -1211,55 +1224,59 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 ]
 \openout2 = `text/introduction.aux'.
 
- (text/introduction.tex
-Package acronym Info: Label `acro:DSP' newly defined as it shall be overridden
-although it is yet undefined on input line 7.
-Package acronym Info: Label `acro:DSP' overridden on input line 7.
-Package acronym Info: Label `acro:symfs' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 8.
-) [23
+ (text/introduction.tex [23
 
 
-{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Overfull \hbox (8.20723pt too wide) in paragraph at lines 45--45
+[]\T1/lmss/bx/n/17.28 seznámení s pouºitými sou£áskami pro nové °e²ení,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+[26] [27]) [28]
 \openout2 = `text/objectives.aux'.
 
-
-(text/objectives.tex [24
-
+ (text/objectives.tex) [29
 
 
 
-]) [25]
+
+]
 \openout2 = `text/solution.aux'.
 
- (text/solution.tex [26
+ (text/solution.tex [30
 
 
 
 
-]) [27]
+]) [31]
 \openout2 = `text/results.aux'.
 
- (text/results.tex [28
+
+(text/results.tex [32
 
 
 
 
-] [29] [30]) [31]
+] [33] [34]) [35]
 \openout2 = `text/conclusion.aux'.
 
- (text/conclusion.tex [32
+ (text/conclusion.tex [36
 
 
 
 
-]) [33]
+]) [37]
 \openout2 = `text/bibliography.aux'.
 
- (text/bibliography.tex
-[34
+
+(text/bibliography.tex [38
 
 
 
@@ -1285,17 +1302,18 @@ Underfull \hbox (badness 1184) in paragraph at lines 48--52
 thog-o-nal Sys-tems\T1/lmr/m/n/12 .
  []
 
-) [35]
+) [39]
 \openout2 = `text/abbreviation.aux'.
 
- (text/abbreviation.tex [36
+ (text/abbreviation.tex [40
 
 
 
 
-]) [37
+]) [41
 
-] [38
+{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+] [42
 
 
 
@@ -1303,28 +1321,28 @@ thog-o-nal Sys-tems\T1/lmr/m/n/12 .
 \tf@toa=\write9
 \openout9 = `template-thesis.toa'.
 
- [39]
+ [43]
 \openout2 = `text/appendix.aux'.
 
 
-(text/appendix.tex [40
+(text/appendix.tex [44
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1.
- [41{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
-] [42
+ [45{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
+] [46
 
 ]
-<pict/ZlepseneWilsonovoZrcadloNPN.png, id=393, 556.0775pt x 434.62375pt>
+<pict/ZlepseneWilsonovoZrcadloNPN.png, id=467, 556.0775pt x 434.62375pt>
 File: pict/ZlepseneWilsonovoZrcadloNPN.png Graphic file (type png)
 <use pict/ZlepseneWilsonovoZrcadloNPN.png>
 Package pdftex.def Info: pict/ZlepseneWilsonovoZrcadloNPN.png  used on input li
 ne 61.
 (pdftex.def)             Requested size: 278.03807pt x 217.31134pt.
- [43 <./pict/ZlepseneWilsonovoZrcadloNPN.png>]
-[44
+ [47 <./pict/ZlepseneWilsonovoZrcadloNPN.png>]
+[48
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <17.28> not available
@@ -1361,10 +1379,13 @@ File: lstlang3.sty 2025/11/14 1.11b listings language file
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 (text/abbreviation.tex)
+Package acronym Info: Label `acro:symfs' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 100.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 104.
  (text/abbreviation.tex) (text/abbreviation.tex)
-[45]
+[49]
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -1373,35 +1394,42 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46
+ [50
 
 ]
-[47] [48
+[51] [52
 
-] [49] [50
+] [53] [54
 
-]) [51]
-\c@page@count=\count346
+]) [55]
+\c@page@count=\count347
  (template-thesis.aux (text/introduction.aux)
 (text/objectives.aux) (text/solution.aux) (text/results.aux)
 (text/conclusion.aux) (text/bibliography.aux) (text/abbreviation.aux)
 (text/appendix.aux))
  ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-08-10>
  ***********
-Package rerunfilecheck Info: File `template-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 72B495A0704C0DAA79BFE5D5A80E15DD;2827.
+
+
+Package rerunfilecheck Warning: File `template-thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `template-thesis.out':
+(rerunfilecheck)             Before: 8FD471918175DCF40C53244994C8682F;4687
+(rerunfilecheck)             After:  A01516D78AA8E858255B51E15205C37D;4671.
  )
 (\end occurred when \ifx on line 18 was incomplete) 
 Here is how much of TeX's memory you used:
- 20227 strings out of 467871
- 322124 string characters out of 5418376
- 980286 words of memory out of 5000000
- 48430 multiletter control sequences out of 15000+600000
+ 20494 strings out of 467441
+ 330754 string characters out of 5407591
+ 992639 words of memory out of 5000000
+ 49108 multiletter control sequences out of 15000+600000
  815730 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,90p,978b,2305s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,17n,90p,997b,2341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/miri-/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/miri-/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/miri-/AppDa
@@ -1427,9 +1455,9 @@ al/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on template-thesis.pdf (51 pages, 611137 bytes).
+Output written on template-thesis.pdf (55 pages, 1981905 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 718 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

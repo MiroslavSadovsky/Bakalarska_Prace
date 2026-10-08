@@ -1,23 +1,37 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Introduction}{23}{section*.9}%
-\contentsline {chapter}{Aim of the thesis}{25}{section*.12}%
-\contentsline {chapter}{\numberline {1}Theory}{27}{chapter.13}%
-\contentsline {chapter}{\numberline {2}Thesis Results}{29}{chapter.14}%
-\contentsline {section}{\numberline {2.1}Selection of Programming Language}{29}{section.15}%
-\contentsline {section}{\numberline {2.2}Implementation}{29}{section.16}%
-\contentsline {subsection}{\numberline {2.2.1}Tests and Evaluation}{29}{subsection.17}%
-\contentsline {subsubsection}{Integer rutrum orci vestibulum}{29}{section*.18}%
-\contentsline {subsubsection}{Eger rutrum orci westibulum}{30}{section*.19}%
-\contentsline {chapter}{Conclusion}{33}{section*.21}%
-\contentsline {chapter}{Bibliography}{35}{section*.23}%
-\contentsline {chapter}{Symbols and abbreviations}{37}{section*.25}%
-\contentsline {chapter}{List of appendices}{39}{section*.27}%
-\contentsline {chapter}{\numberline {A}Selected Commands of \texttt {thesis} Package }{41}{chapter.28}%
-\contentsline {section}{\numberline {A.1}Quantities and Units }{41}{section.29}%
-\contentsline {section}{\numberline {A.2}Symbols }{41}{section.31}%
-\contentsline {chapter}{\numberline {B}Next Appendix }{43}{chapter.33}%
-\contentsline {chapter}{\numberline {C}Examples of Listing Computer Codes }{45}{chapter.35}%
-\contentsline {section}{\numberline {C.1}Package \texttt {listings} }{45}{section.36}%
-\contentsline {chapter}{\numberline {D}Algorithms }{49}{chapter.108}%
-\contentsline {chapter}{\numberline {E}Content of the electronic attachment }{51}{chapter.111}%
+\contentsline {section}{\numberline {0.1}Accelerators and how do they work (primarily focused on SPS)}{23}{section*.10}%
+\contentsline {section}{\numberline {0.2}Aktuálně implementovaný měřicí řetězec}{23}{section*.11}%
+\contentsline {section}{\numberline {0.3}Nedostatky momentálního řešení}{25}{section*.12}%
+\contentsline {section}{\numberline {0.4}seznámení s použitými součáskami pro nové řešení, a proč řeší problém předchozího}{26}{section*.13}%
+\contentsline {subsection}{\numberline {0.4.1}SDR}{26}{subsection*.14}%
+\contentsline {subsection}{\numberline {0.4.2}Snímač}{26}{subsection*.15}%
+\contentsline {subsection}{\numberline {0.4.3}A/D převodník}{26}{subsection*.16}%
+\contentsline {subsection}{\numberline {0.4.4}FPGA}{26}{subsection*.17}%
+\contentsline {subsubsection}{NCO}{27}{section*.18}%
+\contentsline {subsubsection}{mixer}{27}{section*.19}%
+\contentsline {subsubsection}{CIC filtr}{27}{section*.20}%
+\contentsline {subsubsection}{FIR filtr}{27}{section*.21}%
+\contentsline {subsubsection}{decimator}{28}{section*.22}%
+\contentsline {subsubsection}{FFT}{28}{section*.23}%
+\contentsline {chapter}{Aim of the thesis}{29}{section*.25}%
+\contentsline {chapter}{\numberline {1}Theory}{31}{chapter*.26}%
+\contentsline {chapter}{\numberline {2}Thesis Results}{33}{chapter*.27}%
+\contentsline {section}{\numberline {2.1}Selection of Programming Language}{33}{section*.28}%
+\contentsline {section}{\numberline {2.2}Implementation}{33}{section*.29}%
+\contentsline {subsection}{\numberline {2.2.1}Tests and Evaluation}{33}{subsection*.30}%
+\contentsline {subsubsection}{Integer rutrum orci vestibulum}{33}{section*.31}%
+\contentsline {subsubsection}{Eger rutrum orci westibulum}{34}{section*.32}%
+\contentsline {chapter}{Conclusion}{37}{section*.34}%
+\contentsline {chapter}{Bibliography}{39}{section*.36}%
+\contentsline {chapter}{Symbols and abbreviations}{41}{section*.38}%
+\contentsline {chapter}{List of appendices}{43}{section*.40}%
+\contentsline {chapter}{\numberline {A}Selected Commands of \texttt {thesis} Package }{45}{chapter*.41}%
+\contentsline {section}{\numberline {A.1}Quantities and Units }{45}{section*.42}%
+\contentsline {section}{\numberline {A.2}Symbols }{45}{section*.44}%
+\contentsline {chapter}{\numberline {B}Next Appendix }{47}{chapter*.46}%
+\contentsline {chapter}{\numberline {C}Examples of Listing Computer Codes }{49}{chapter*.48}%
+\contentsline {section}{\numberline {C.1}Package \texttt {listings} }{49}{section*.49}%
+\contentsline {chapter}{\numberline {D}Algorithms }{53}{chapter*.121}%
+\contentsline {chapter}{\numberline {E}Content of the electronic attachment }{55}{chapter*.124}%
