@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{Etisken2023}
+O.~Etisken, F.~Antoniou, Y.~Papaphilippou, T.~Tydecks, F.~Zimmermann, A.~K.
+  Ciftci, and K.~Oide.
+\newblock {CERN} {Super Proton Synchrotron} and an alternative design as
+  prebooster ring for the future circular collider {$e^+e^-$} injector complex.
+\newblock {\em Physical Review Accelerators and Beams}, 26(8):081601, 2023.
+\newblock \href {https://doi.org/10.1103/PhysRevAccelBeams.26.081601}
+  {\path{doi:10.1103/PhysRevAccelBeams.26.081601}}.
+
+\bibitem{Velotti}
+F.~M. Velotti, W.~Bartmann, T.~Bohl, C.~Bracco, K.~Cornelis, M.~Fraser,
+  B.~Goddard, V.~Kain, and L.~Stoel.
+\newblock Characterisation of the {SPS} slow-extraction parameters.
+\newblock In {\em Proceedings of IPAC2016}, Busan, Korea, 2016.
+\newblock Paper THPOR055.
+\newblock URL: \url{https://cds.cern.ch/record/2207488}.
+
+\bibitem{N23}
+S.~Benitez, D.~Belohrad, S.~Burger, A.~Goldblatt, M.~Mart{\'\i}n, S.~Mazzoni,
+  and F.~Roncarolo.
+\newblock {SPS} fast spill monitor characterisation and evaluation throughout
+  2023.
+\newblock PBC Note CERN-PBC-Notes-2024-005, CERN, Geneva, November 2023.
+\newblock EDMS 3443439.
+
+\end{thebibliography}

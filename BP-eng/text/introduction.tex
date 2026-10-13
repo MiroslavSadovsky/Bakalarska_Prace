@@ -2,12 +2,34 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{Introduction}
 
-\section{Accelerators and how do they work (primarily focused on SPS)}
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque turpis tortor, in facilisis tellus porttitor quis. Nam pharetra condimentum vestibulum. Nullam eu risus sit amet urna rhoncus ultrices. Vivamus blandit nibh eget imperdiet semper. Nulla ut euismod felis. Nunc rhoncus molestie placerat. Cras efficitur sed dolor quis convallis. Maecenas eleifend pharetra ligula, et molestie purus porttitor eu. Aliquam eleifend non ligula non ornare. Maecenas auctor odio sit amet diam vehicula bibendum.
+\section{Accelerators and proton SPILL}
+Urychlovač částic je zařízení, které, pomocí elektromagnetických polí, pohání nabité částice. Takové částice se pak mohou pohybovat rychlostí, která je blízká rychlosti světla. Používají se hlavně v oblasti zdravotnictví a výzkumu. Ve zdravotnitví v rámci onkologie, kde se urychlené částice používají ke specialitovanému ozařování maligní tkáně. Ve vědecké sféře se pak v rámci experimentů z oblasti částicové fyziky tyto urychlené částice nechávají narážet do sebe nebo do pevného terče, ať už za účelem zkoumání nových částic, antihmoty, nebo kvůli co nejvěrnější simulaci Velkého třesku.
 
-Phasellus pellentesque felis id ultrices aliquet. Proin fringilla erat purus, et accumsan magna dapibus eu. Ut viverra, nibh vel molestie tempus, lectus mi consectetur est, et pulvinar massa mi et justo. Nullam mauris mauris, tincidunt nec eleifend quis, dignissim at ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc egestas enim vitae nunc dignissim aliquet. Donec fermentum lorem erat, eget placerat dui sagittis laoreet. Proin in risus lacinia, ultrices sem et, auctor dui. Vivamus non orci nulla. Praesent tincidunt justo a eros sollicitudin tempor. Nullam a nisi in nibh eleifend condimentum. Praesent eget pellentesque augue.
+Existují dva hlavní typy urychlovačů:
+\begin{enumerate}
+	\item \textbf{Lineární urychlovač (Linac)} -- Částice se pohybují po přímé dráze skrz sérii rezonančních dutin. Vysokofrekvenční elektrické pole je postupně urychluje, zatímco magnetické pole slouží pouze k udržení úzkého profilu paprsku. Výhodou je absence energetických ztrát způsobených změnou směru letu.
+	\item \textbf{Kruhový urychlovač (např. synchrotron nebo cyklotron)} -- Částice obíhají v uzavřené trubici. Silné dipólové elektromagnety zakřivují jejich dráhu, takže částice mohou stejným urychlovacím úsekem s elektrickým polem projít mnohokrát. To umožňuje dosáhnout extrémních energií na menším prostoru.
+\end{enumerate}
 
-Sed at diam mi. Curabitur elementum molestie sapien, eu viverra tortor laoreet vitae. Cras vitae ligula varius, auctor magna ut, fringilla odio. Mauris ornare ac nisl et congue. In non sem mauris. Nulla tincidunt bibendum dolor at cursus. Fusce mollis mi sed turpis luctus, at bibendum dui facilisis. Pellentesque ligula mauris, maximus vel condimentum in, interdum sit amet dui. Nam dolor augue, placerat a diam eu, eleifend faucibus erat. Sed at venenatis purus. Suspendisse potenti. Nullam nec volutpat diam. Donec vel libero lacus. 
+
+
+
+
+\subsection{Princip synchrotronu}
+
+
+
+
+V rámci mezinárodní organizace CERN existuje vícero lineárních i kruhových urychlovačů, předmětem práce však bude Super Proton Synchrotron.
+
+\subsection{Super Proton Synchrotron}
+Super Proton Synchrotron (SPS) je druhý největší kruhový urychlovač v CERN o obvodu 6911,5~m \cite[kap.~IV.A]{Etisken2023}. Protony v něm obíhají s energií $400 \,\text{GeV}$ a frekvencí $f_{rev} = 43{,}38 \,\text{kHz}$ \cite{DAQ_Belohrad}.
+
+SPS je posledním urychlovačem v řetězci injektorů LHC, ale jeho hlavními uživateli jsou experimenty s pevným terčem v North Area \cite{Velotti}.
+
+
+\section{SPILL monitoring}
+
 
 \section{Aktuálně implementovaný měřicí řetězec}
 OTR - Optical Transition Radiation, PMT - Photomultiplier tube, 
@@ -28,10 +50,9 @@ Právě proto se OTR fólie vyrábějí z co nejlehčích kovů (často titan ne
 
 \vspace*{20pt}
 
-Nulla sagittis porta lacus quis sagittis. Etiam mattis aliquam magna, vel auctor sem tempor non. Aliquam erat volutpat. Quisque ultrices metus fringilla magna tincidunt, quis efficitur neque interdum. In ornare est sed posuere ultrices. Curabitur sollicitudin posuere semper. Suspendisse mattis velit ac dui venenatis, a porta odio mattis. Sed id eros augue. Sed enim massa, ullamcorper sed nulla sit amet, suscipit rhoncus nisl. Mauris congue accumsan urna, quis hendrerit felis viverra tristique. Vivamus sed libero enim. Nulla lobortis convallis nibh nec ultricies. Ut vestibulum, tortor sit amet aliquam luctus, tellus nisi malesuada tortor, sit amet viverra lectus nunc id tellus. 
 
 
-\section{Nedostatky momentálního řešení}
+\section{Základy číslicového zpracování signálu}
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida viverra tincidunt. Etiam ultricies eget velit at elementum. Etiam congue, diam ut egestas porttitor, sapien neque eleifend lectus, vitae congue elit odio vitae mi. Proin sodales eros id ligula vestibulum consectetur. Proin elementum sollicitudin nunc nec eleifend. Fusce sit amet aliquet lectus, rutrum cursus libero. Mauris varius ultrices lorem, ac cursus velit dapibus ut. Sed elementum hendrerit nunc in hendrerit. In fringilla, eros nec lacinia dignissim, enim libero lacinia tellus, in rhoncus erat mauris nec enim.
 
@@ -42,7 +63,7 @@ Pellentesque porttitor mi in dolor pretium suscipit. In sit amet finibus sapien,
 Etiam odio erat, venenatis nec urna eget, efficitur efficitur nulla. Mauris et leo nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus ut mauris erat. Nullam porta nibh tortor, et tempus turpis vehicula a. Fusce non mauris posuere, blandit nisl sit amet, scelerisque felis. Curabitur ac rhoncus urna. Morbi vestibulum tellus leo, ac pulvinar tellus placerat varius. Sed ac vestibulum tellus. Nam enim velit, laoreet quis augue a, luctus feugiat enim. Sed in massa eget arcu pellentesque suscipit. Quisque suscipit lacinia dolor, vel fermentum orci hendrerit et. 
 
 
-\section{seznámení s použitými součáskami pro nové řešení, a proč řeší problém předchozího}
+\section{Softwarově definované radio}
 
 
 \subsection{SDR}
@@ -68,10 +89,24 @@ Cras luctus rhoncus lacinia. In a malesuada sapien. Mauris fermentum, tellus ut 
 Ut cursus nunc at justo mattis cursus. Nam quis ligula nulla. Integer tincidunt at felis a pulvinar. Proin rhoncus condimentum maximus. Suspendisse ac metus euismod, posuere erat eu, tincidunt arcu. Nulla facilisi. Vivamus volutpat, leo vel laoreet facilisis, purus ligula ornare tellus, nec molestie libero lorem a augue. Quisque a erat gravida, bibendum sapien a, dictum nunc. Nunc at nisl id lacus facilisis fringilla a at ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
 
 \subsubsection{FIR filtr}
-Donec congue magna porttitor velit tristique hendrerit. Duis vitae condimentum libero, id pulvinar tortor. Aliquam luctus rhoncus dui a interdum. Duis quis mollis arcu. Aenean rhoncus erat accumsan metus mollis, eu interdum arcu varius. Morbi sit amet velit ut nulla molestie tincidunt. Morbi condimentum lacus ac arcu feugiat, in luctus ipsum tristique. Nam varius sit amet sem nec facilisis. Fusce interdum lacus nec efficitur tincidunt. Mauris leo leo, lobortis vitae turpis non, egestas semper est. Aenean hendrerit sapien erat, ac vestibulum nibh egestas vel. Morbi ullamcorper erat commodo leo condimentum faucibus. Quisque id aliquam dui. 
+
+FIR filtr je filtr, který má konečnou odezvu na jednotkový impulz, budu používat digitální, takže jde o počet koeficietů ($h[n] = b_0 + b_1z^{-1} + b_2z^{-2} +x\dots$), kde počet koeficientů, kterým se říká taps a jejich počet přímo odpovídá, kolik kroků bude trvat odezva na jenotkový impulz.
+
+\begin{equation}
+	h[n] = \sum_{i=0}^{N} b_i \cdot \delta[n-i] = 
+	\left\{
+	\begin{array}{ll}
+		b_n & 0 \leq n \leq N \\
+		0 & \mbox{otherwise}.
+	\end{array}
+	\right.
+\end{equation}
 
 \subsubsection{decimator}
 Nam cursus ultricies diam eu hendrerit. Aliquam erat volutpat. Morbi tellus arcu, porta vitae malesuada sit amet, auctor vitae dolor. In hac habitasse platea dictumst. Aliquam sit amet ultrices lorem. Donec laoreet ornare dapibus. Nunc ut posuere eros, ut laoreet nulla. Nam placerat, tortor eget venenatis tempor, est elit aliquet felis, ac egestas mi lacus vel arcu. Aenean sit amet feugiat lorem, nec ultrices eros.
 
 \subsubsection{FFT}
 Cras luctus rhoncus lacinia. In a malesuada sapien. Mauris fermentum, tellus ut tristique efficitur, ante augue cursus magna, quis euismod nibh orci tincidunt dui. Morbi tincidunt, lorem eu hendrerit placerat, lectus orci commodo massa, vel facilisis dolor elit sed dolor. Etiam pulvinar blandit justo, at feugiat risus varius dictum. Sed pellentesque erat nec mi ornare, et gravida lacus placerat. Sed at sem rutrum, pellentesque nisi sit amet, pharetra sem. Aliquam orci libero, commodo eu cursus pretium, volutpat vel turpis. Nam sollicitudin tortor id ornare sodales. Praesent a commodo leo, vitae volutpat est. Donec vulputate scelerisque neque, id commodo risus dapibus sed. Donec ultricies sollicitudin velit non pharetra. Morbi malesuada ultricies nulla, id egestas purus hendrerit eu. Fusce pretium ac metus vel gravida. Vivamus vitae dui felis. Sed sagittis lacinia libero nec faucibus. 
+
+
+\section{Implementacev FPGA}

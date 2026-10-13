@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  8 OCT 2026 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  1 NOV 2026 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,30 +354,98 @@ Package: relsize 2013/03/29 ver 4.1
 \algocf@algoframe=\box62
 \algocf@algobox=\box63
 )
+(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2026/05/19 v2.18d AMS math features
+\@mathmargin=\skip75
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen181
+))
+(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen182
+)
+(C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count316
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count317
+\leftroot@=\count318
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count319
+\DOTSCASE@=\count320
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen183
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count321
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count322
+\dotsspace@=\muskip18
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
+\tag@help=\toks26
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
+\andhelp@=\toks27
+\eqnshift@=\dimen184
+\alignsep@=\dimen185
+\tagshift@=\dimen186
+\tagwidth@=\dimen187
+\totwidth@=\dimen188
+\lineht@=\dimen189
+\@envbody=\toks28
+\multlinegap=\skip76
+\multlinetaggap=\skip77
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
+)
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count316
-\lst@gtempboxa=\box64
-\lst@token=\toks25
-\lst@length=\count317
-\lst@currlwidth=\dimen181
-\lst@column=\count318
-\lst@pos=\count319
-\lst@lostspace=\dimen182
-\lst@width=\dimen183
-\lst@newlines=\count320
-\lst@lineno=\count321
-\lst@maxwidth=\dimen184
+\lst@mode=\count328
+\lst@gtempboxa=\box66
+\lst@token=\toks30
+\lst@length=\count329
+\lst@currlwidth=\dimen190
+\lst@column=\count330
+\lst@pos=\count331
+\lst@lostspace=\dimen191
+\lst@width=\dimen192
+\lst@newlines=\count332
+\lst@lineno=\count333
+\lst@maxwidth=\dimen193
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\lst@fmtcurrindent=\dimen185
-\lst@newlinesensured=\count322
-\c@lstnumber=\count323
-\lst@skipnumbers=\count324
-\lst@framebox=\box65
+\lst@fmtcurrindent=\dimen194
+\lst@newlinesensured=\count334
+\c@lstnumber=\count335
+\lst@skipnumbers=\count336
+\lst@framebox=\box67
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -395,14 +463,14 @@ Package: thesis 2025/09/25v4.13LaTeX document class
 
 Styl 'thesis.sty' pro psani kvalifikacnich praci v(4.13) na VUT v Brne
 
-\type@semestral=\count325
-\type@bachelor=\count326
-\type@diploma=\count327
-\type@treatise=\count328
-\type@phd=\count329
-\lang@czech=\count330
-\lang@slovak=\count331
-\lang@english=\count332
+\type@semestral=\count337
+\type@bachelor=\count338
+\type@diploma=\count339
+\type@treatise=\count340
+\type@phd=\count341
+\lang@czech=\count342
+\lang@slovak=\count343
+\lang@english=\count344
 
 LaTeX Warning: Typ prace zmenen na semestralni/Document type changed to semestr
 al.
@@ -414,7 +482,7 @@ input line 200.
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2026/09/09 v26.12 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
-\babel@savecnt=\count333
+\babel@savecnt=\count345
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
 ne 2095.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
@@ -429,12 +497,12 @@ LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?)
 on input line 2103.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
 on input line 2128.
-\U@D=\dimen186
+\U@D=\dimen195
 \l@unhyphenated=\language79
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count334
+\bbl@dirlevel=\count346
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
 (babel)             Reported on input line 4331.
@@ -456,7 +524,7 @@ Package babel Info: Importing font and identification data for 'czech'
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/babel-czech\czech.ldf
 Language: czech 2008/07/06 v3.1a Czech support from the babel system
 Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count335
+\cs@wordlen=\count347
 Package babel Info: Making - an active character on input line 226.
 )
 Package babel Info: Importing font and identification data for 'english'
@@ -892,28 +960,28 @@ Package: geometry 2026/03/07 v6.0 Page Geometry
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count336
-\Gm@cntv=\count337
-\c@Gm@tempcnt=\count338
-\Gm@bindingoffset=\dimen187
-\Gm@wd@mp=\dimen188
-\Gm@odd@mp=\dimen189
-\Gm@even@mp=\dimen190
-\Gm@layoutwidth=\dimen191
-\Gm@layoutheight=\dimen192
-\Gm@layouthoffset=\dimen193
-\Gm@layoutvoffset=\dimen194
-\Gm@dimlist=\toks26
+\Gm@cnth=\count348
+\Gm@cntv=\count349
+\c@Gm@tempcnt=\count350
+\Gm@bindingoffset=\dimen196
+\Gm@wd@mp=\dimen197
+\Gm@odd@mp=\dimen198
+\Gm@even@mp=\dimen199
+\Gm@layoutwidth=\dimen256
+\Gm@layoutheight=\dimen257
+\Gm@layouthoffset=\dimen258
+\Gm@layoutvoffset=\dimen259
+\Gm@dimlist=\toks31
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 \symupgreek=\mathgroup4
-\thesis@tmp=\skip75
+\thesis@tmp=\skip78
 )){C:/Users/miri-/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{./vafle.map
 }
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2026-08-10 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count339
+\l__color_backend_stack_int=\count351
 ) (template-thesis.aux (text/introduction.aux) (text/objectives.aux)
 (text/solution.aux) (text/results.aux) (text/conclusion.aux)
 (text/bibliography.aux) (text/abbreviation.aux) (text/appendix.aux))
@@ -949,17 +1017,17 @@ LaTeX Font Info:    ... okay on input line 127.
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
-\scratchdimen=\dimen195
-\scratchbox=\box66
-\nofMPsegments=\count341
-\nofMParguments=\count342
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count343
-\MPscratchDim=\dimen196
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count352
+\scratchdimen=\dimen260
+\scratchbox=\box68
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count355
+\MPscratchDim=\dimen261
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks33
 )
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -990,7 +1058,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count346
+\c@lstlisting=\count358
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1032,7 +1100,7 @@ Package babel Info: Main language set to 'english'.
 
 pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/TitulniList_color.pdf, id=112, 597.51233pt x 845.0471pt>
+<pdf/TitulniList_color.pdf, id=116, 597.51233pt x 845.0471pt>
 File: pdf/TitulniList_color.pdf Graphic file (type pdf)
 <use pdf/TitulniList_color.pdf>
 Package pdftex.def Info: pdf/TitulniList_color.pdf  used on input line 142.
@@ -1045,7 +1113,7 @@ pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/TitulniList_color.pdf, id=114, page=1, 597.51233pt x 845.0471pt>
+<pdf/TitulniList_color.pdf, id=118, page=1, 597.51233pt x 845.0471pt>
 File: pdf/TitulniList_color.pdf Graphic file (type pdf)
 <use pdf/TitulniList_color.pdf, page 1>
 Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
@@ -1080,7 +1148,7 @@ Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
 
 pdfTeX warning: pdflatex.exe (file ./pdf/Zadani_color.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<pdf/Zadani_color.pdf, id=133, 597.51233pt x 845.0471pt>
+<pdf/Zadani_color.pdf, id=137, 597.51233pt x 845.0471pt>
 File: pdf/Zadani_color.pdf Graphic file (type pdf)
 <use pdf/Zadani_color.pdf>
 Package pdftex.def Info: pdf/Zadani_color.pdf  used on input line 150.
@@ -1093,7 +1161,7 @@ d PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/Zadani_color.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<pdf/Zadani_color.pdf, id=135, page=1, 597.51233pt x 845.0471pt>
+<pdf/Zadani_color.pdf, id=139, page=1, 597.51233pt x 845.0471pt>
 File: pdf/Zadani_color.pdf Graphic file (type pdf)
 <use pdf/Zadani_color.pdf, page 1>
 Package pdftex.def Info: pdf/Zadani_color.pdf , page1 used on input line 150.
@@ -1186,20 +1254,20 @@ c}{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 ] (template-thesis.toc
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 30.
-)
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 31.
+ [13
+
+])
 \tf@toc=\write4
 \openout4 = `template-thesis.toc'.
 
- [13
-
-] [14
-
-] (template-thesis.lof)
+ [14] (template-thesis.lof)
 \tf@lof=\write5
 \openout5 = `template-thesis.lof'.
 
- [15]
+ [15
+
+]
 [16
 
 ] (template-thesis.lot)
@@ -1224,125 +1292,143 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 ]
 \openout2 = `text/introduction.aux'.
 
- (text/introduction.tex [23
+ (text/introduction.tex
+
+LaTeX Warning: Citation `PDG' on page 23 undefined on input line 34.
+
+[23
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
+Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 
- [24]
-Overfull \hbox (8.20723pt too wide) in paragraph at lines 45--45
+LaTeX Warning: Citation `Wille' on page 24 undefined on input line 50.
+
+[24{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
+nc}] [25]
+Overfull \hbox (8.20723pt too wide) in paragraph at lines 102--102
 []\T1/lmss/bx/n/17.28 seznámení s pouºitými sou£áskami pro nové °e²ení,
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-[26] [27]) [28]
+[26] [27]) [28] [29]
 \openout2 = `text/objectives.aux'.
 
- (text/objectives.tex) [29
-
-
-
-
-]
-\openout2 = `text/solution.aux'.
-
- (text/solution.tex [30
+ (text/objectives.tex [30
 
 
 
 
 ]) [31]
+\openout2 = `text/solution.aux'.
+
+ (text/solution.tex
+[32
+
+
+
+
+]) [33]
 \openout2 = `text/results.aux'.
 
-
-(text/results.tex [32
-
-
-
-
-] [33] [34]) [35]
-\openout2 = `text/conclusion.aux'.
-
- (text/conclusion.tex [36
-
-
-
-
-]) [37]
-\openout2 = `text/bibliography.aux'.
-
-
-(text/bibliography.tex [38
+ (text/results.tex [34
 
 
 
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--17
-[]$\T1/lmtt/m/n/10.95 https : / / www . vut . cz / uredni-[]deska / vnitrni-[]p
-redpisy-[]a-[]dokumenty /
- []
+LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 6.
 
 
-Overfull \hbox (53.80438pt too wide) in paragraph at lines 9--17
-\T1/lmtt/m/n/10.95 smernice-[]c-[]72-[]2017-[]uprava-[]odevzdavani-[]a-[]zverej
-novani-[]zaverecnych-[]praci-[]d161410$[]\T1/lmr/m/n/10.95 .
- []
+LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 12.
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 48--52
-[]\T1/lmr/m/n/12 WALTER, G.G. a SHEN, X. \T1/lmr/m/it/12 Wavelets and Other Or-
-thog-o-nal Sys-tems\T1/lmr/m/n/12 .
- []
+LaTeX Warning: Citation `pravidla' on page 35 undefined on input line 12.
 
-) [39]
+[35]
+
+LaTeX Warning: Citation `Walter1999' on page 36 undefined on input line 19.
+
+
+LaTeX Warning: Citation `Svacina1999IEEE' on page 36 undefined on input line 19
+.
+
+
+LaTeX Warning: Citation `RajmicSysel2002' on page 36 undefined on input line 19
+.
+
+
+LaTeX Warning: Citation `CSN_ISO_690-2022' on page 36 undefined on input line 2
+2.
+
+
+LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 36 undefined on input line 
+22.
+
+
+LaTeX Warning: Citation `CSN_ISO_31-11' on page 36 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 36 undefine
+d on input line 24.
+
+[36]) [37]
+\openout2 = `text/conclusion.aux'.
+
+ (text/conclusion.tex [38
+
+
+
+
+]) [39]
+\openout2 = `text/bibliography.aux'.
+
+ (text/bibliography.tex
+(template-thesis.bbl [40
+
+
+
+
+])) [41]
 \openout2 = `text/abbreviation.aux'.
 
- (text/abbreviation.tex [40
+ (text/abbreviation.tex [42
 
 
 
 
-]) [41
+]) [43
 
-{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
-] [42
-
+] [44
 
 
-] (template-thesis.toa)
+
+]
+(template-thesis.toa)
 \tf@toa=\write9
 \openout9 = `template-thesis.toa'.
 
- [43]
+ [45]
 \openout2 = `text/appendix.aux'.
 
-
-(text/appendix.tex [44
+ (text/appendix.tex [46
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1.
- [45{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
-] [46
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 9.
+ [47] [48
 
 ]
-<pict/ZlepseneWilsonovoZrcadloNPN.png, id=467, 556.0775pt x 434.62375pt>
+<pict/ZlepseneWilsonovoZrcadloNPN.png, id=480, 556.0775pt x 434.62375pt>
 File: pict/ZlepseneWilsonovoZrcadloNPN.png Graphic file (type png)
 <use pict/ZlepseneWilsonovoZrcadloNPN.png>
 Package pdftex.def Info: pict/ZlepseneWilsonovoZrcadloNPN.png  used on input li
 ne 61.
 (pdftex.def)             Requested size: 278.03807pt x 217.31134pt.
- [47 <./pict/ZlepseneWilsonovoZrcadloNPN.png>]
-[48
+ [49 <./pict/ZlepseneWilsonovoZrcadloNPN.png>] [50
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <17.28> not available
@@ -1385,7 +1471,7 @@ although it is yet undefined on input line 100.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 104.
  (text/abbreviation.tex) (text/abbreviation.tex)
-[49]
+[51]
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -1394,15 +1480,15 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50
+ [52
 
 ]
-[51] [52
+[53] [54
 
-] [53] [54
+] [55] [56
 
-]) [55]
-\c@page@count=\count347
+]) [57]
+\c@page@count=\count359
  (template-thesis.aux (text/introduction.aux)
 (text/objectives.aux) (text/solution.aux) (text/results.aux)
 (text/conclusion.aux) (text/bibliography.aux) (text/abbreviation.aux)
@@ -1413,23 +1499,20 @@ L3 programming layer <2026-08-10>
  ***********
 
 
-Package rerunfilecheck Warning: File `template-thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `template-thesis.out':
-(rerunfilecheck)             Before: 8FD471918175DCF40C53244994C8682F;4687
-(rerunfilecheck)             After:  A01516D78AA8E858255B51E15205C37D;4671.
+Package rerunfilecheck Info: File `template-thesis.out' has not changed.
+(rerunfilecheck)             Checksum: A5EFA5FB0259D3383F1DBC592EBF29F3;4857.
  )
 (\end occurred when \ifx on line 18 was incomplete) 
 Here is how much of TeX's memory you used:
- 20494 strings out of 467441
- 330754 string characters out of 5407591
- 992639 words of memory out of 5000000
- 49108 multiletter control sequences out of 15000+600000
+ 21208 strings out of 467441
+ 340690 string characters out of 5407591
+ 1002518 words of memory out of 5000000
+ 49797 multiletter control sequences out of 15000+600000
  815730 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,90p,997b,2341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,17n,90p,1041b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/miri-/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/miri-/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/miri-/AppDa
@@ -1437,6 +1520,7 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/miri-/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/miri-/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/miri-/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/miri-/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/miri-/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/miri-/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/miri-/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/miri-/AppData
@@ -1455,9 +1539,9 @@ al/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on template-thesis.pdf (55 pages, 1981905 bytes).
+Output written on template-thesis.pdf (57 pages, 1989771 bytes).
 PDF statistics:
- 718 PDF objects out of 1000 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 732 PDF objects out of 1000 (max. 8388607)
+ 192 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
