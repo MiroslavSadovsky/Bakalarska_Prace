@@ -1,0 +1,59 @@
+%kódy na zkopírování pro vložení obrázků
+
+
+%clean verze:
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{nazev_obrazku}
+	\caption{Popisek obrázku, který se objeví pod ním a v seznamu obrázků.} 
+	\label{fig:muj_obrazek}
+\end{figure}
+
+
+
+\begin{figure}[htbp]      % [htbp] říká: "Zkus to vložit Tady, nebo Nahoře, Dole, nebo na samostatné Stránce."
+    \centering             % Obrázek bude vycentrován na střed stránky
+    \includegraphics[width=0.8\textwidth]{nazev_obrazku} % Nastaví šířku na 80 % šířky textu
+    \caption{Popisek obrázku, který se objeví pod ním a v seznamu obrázků.} 
+    \label{fig:muj_obrazek} % Značka pro křížové odkazy v textu
+\end{figure}
+
+%kdyžtak před width jde ještě dát "angle=90, " na řádek 5 pro otočení
+%když je obrázek ve složce dám před jeho jméno \jméno_složky
+
+
+% nebo víc vedle sebe
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth} % 45 % šířky textu pro první pod-obrázek
+        \centering
+        \includegraphics[width=\textwidth]{z_beta}
+        \caption{Záření $\beta$ ($^{90}\text{Sr}$).}
+    \end{subfigure}
+    \hfill % Vloží pružnou mezeru mezi pod-obrázky
+    \begin{subfigure}[b]{0.45\textwidth} % 45 % šířky textu pro druhý pod-obrázek
+        \centering
+        \includegraphics[width=\textwidth]{z_gama}
+        \caption{Záření $\gamma$ ($^{137}\text{Cs}$).}
+    \end{subfigure}
+    \caption{Porovnání útlumu různých typů ionizujícího záření v hliníku.}
+    \label{fig:porovnani}
+\end{figure}
+
+
+%sample equation
+
+\begin{equation}
+	nR = \frac{p_1 V_1}{T_1} = \frac{p_2 V_2}{T_2}
+\end{equation}
+\vspace{0.5em}
+\noindent kde je: \\
+\begin{tabular}{l l l}
+	$n$ & látkové množství & $[\text{mol}]$ \\
+	$R$ & plynová konstanta & $[\text{J}\cdot\text{K}^{-1}\cdot\text{mol}^{-1}]$ \\
+	$p$ & tlak plynu & $[\text{Pa}]$ \\
+	$V$ & objem plynu & $[\text{m}^3]$ \\
+	$T$ & termodynamická teplota & $[\text{K}]$ \\
+\end{tabular}
+\vspace{0.5em} 

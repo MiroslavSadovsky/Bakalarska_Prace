@@ -1,38 +1,58 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Introduction}{23}{section*.9}%
-\contentsline {section}{\numberline {0.1}Accelerators and how do they work (primarily focused on SPS)}{23}{section*.10}%
-\contentsline {subsection}{\numberline {0.1.1}Super Proton Synchrotron}{23}{subsection*.13}%
-\contentsline {section}{\numberline {0.2}Aktuálně implementovaný měřicí řetězec}{24}{section*.18}%
-\contentsline {section}{\numberline {0.3}Nedostatky momentálního řešení}{25}{section*.19}%
-\contentsline {section}{\numberline {0.4}seznámení s použitými součáskami pro nové řešení, a proč řeší problém předchozího}{26}{section*.20}%
-\contentsline {subsection}{\numberline {0.4.1}SDR}{26}{subsection*.21}%
-\contentsline {subsection}{\numberline {0.4.2}Snímač}{26}{subsection*.22}%
-\contentsline {subsection}{\numberline {0.4.3}A/D převodník}{27}{subsection*.23}%
-\contentsline {subsection}{\numberline {0.4.4}FPGA}{27}{subsection*.24}%
-\contentsline {subsubsection}{NCO}{27}{section*.25}%
-\contentsline {subsubsection}{mixer}{27}{section*.26}%
-\contentsline {subsubsection}{CIC filtr}{28}{section*.27}%
-\contentsline {subsubsection}{FIR filtr}{28}{section*.28}%
-\contentsline {subsubsection}{decimator}{28}{section*.30}%
-\contentsline {subsubsection}{FFT}{28}{section*.31}%
-\contentsline {chapter}{Aim of the thesis}{31}{section*.33}%
-\contentsline {chapter}{\numberline {1}Theory}{33}{chapter*.34}%
-\contentsline {chapter}{\numberline {2}Thesis Results}{35}{chapter*.35}%
-\contentsline {section}{\numberline {2.1}Selection of Programming Language}{35}{section*.36}%
-\contentsline {section}{\numberline {2.2}Implementation}{35}{section*.37}%
-\contentsline {subsection}{\numberline {2.2.1}Tests and Evaluation}{35}{subsection*.38}%
-\contentsline {subsubsection}{Integer rutrum orci vestibulum}{35}{section*.39}%
-\contentsline {subsubsection}{Eger rutrum orci westibulum}{36}{section*.40}%
-\contentsline {chapter}{Conclusion}{39}{section*.42}%
-\contentsline {chapter}{Bibliography}{41}{section*.44}%
-\contentsline {chapter}{Symbols and abbreviations}{43}{section*.46}%
-\contentsline {chapter}{List of appendices}{45}{section*.48}%
-\contentsline {chapter}{\numberline {A}Selected Commands of \texttt {thesis} Package }{47}{chapter*.49}%
-\contentsline {section}{\numberline {A.1}Quantities and Units }{47}{section*.50}%
-\contentsline {section}{\numberline {A.2}Symbols }{47}{section*.52}%
-\contentsline {chapter}{\numberline {B}Next Appendix }{49}{chapter*.54}%
-\contentsline {chapter}{\numberline {C}Examples of Listing Computer Codes }{51}{chapter*.56}%
-\contentsline {section}{\numberline {C.1}Package \texttt {listings} }{51}{section*.57}%
-\contentsline {chapter}{\numberline {D}Algorithms }{55}{chapter*.129}%
-\contentsline {chapter}{\numberline {E}Content of the electronic attachment }{57}{chapter*.132}%
+\contentsline {section}{\numberline {0.1}Urychlovač SPS a slow extrakce}{23}{section*.10}%
+\contentsline {subsection}{\numberline {0.1.1}Úvod do urychlovačů částic}{23}{subsection*.11}%
+\contentsline {subsection}{\numberline {0.1.2}Princip synchrotronu}{23}{subsection*.14}%
+\contentsline {subsubsection}{RF dutiny}{23}{section*.15}%
+\contentsline {subsection}{\numberline {0.1.3}Komplex urychlovačů CERN}{24}{subsection*.17}%
+\contentsline {subsection}{\numberline {0.1.4}Super Proton Synchrotron}{24}{subsection*.19}%
+\contentsline {subsection}{\numberline {0.1.5}Pomalá rezonanční extrakce}{26}{subsection*.20}%
+\contentsline {subsection}{\numberline {0.1.6}Spill a frekvence zájmu}{26}{subsection*.21}%
+\contentsline {section}{\numberline {0.2}SPILL monitoring}{26}{section*.22}%
+\contentsline {subsection}{\numberline {0.2.1}monitory spill na SPS}{26}{subsection*.23}%
+\contentsline {subsection}{\numberline {0.2.2}Optické přechodové záření}{26}{subsection*.24}%
+\contentsline {subsection}{\numberline {0.2.3}Fotonásobič a analogová úprava signálu}{27}{subsection*.25}%
+\contentsline {section}{\numberline {0.3}Aktuálně implementovaný měřicí řetězec}{27}{section*.26}%
+\contentsline {subsection}{\numberline {0.3.1}Hardwarová platforma}{27}{subsection*.27}%
+\contentsline {subsection}{\numberline {0.3.2}Formát dat a rozhraní ADC}{27}{subsection*.28}%
+\contentsline {subsection}{\numberline {0.3.3}režimy měření}{27}{subsection*.29}%
+\contentsline {subsection}{\numberline {0.3.4}Omezení součastného řešení}{27}{subsection*.30}%
+\contentsline {section}{\numberline {0.4}Základy číslicového zpracování signálu}{27}{section*.31}%
+\contentsline {subsection}{\numberline {0.4.1}vzorkování a kvantování}{27}{subsection*.32}%
+\contentsline {subsection}{\numberline {0.4.2}Diskrétní Fourierova transformace}{27}{subsection*.33}%
+\contentsline {subsection}{\numberline {0.4.3}Odhad spektra}{27}{subsection*.34}%
+\contentsline {subsection}{\numberline {0.4.4}Charakteristiky a metriky signálu}{27}{subsection*.35}%
+\contentsline {section}{\numberline {0.5}Softwarově definované radio}{27}{section*.36}%
+\contentsline {subsection}{\numberline {0.5.1}Princip digitální down-konverze}{27}{subsection*.37}%
+\contentsline {subsection}{\numberline {0.5.2}Numericky řízený oscilátor}{27}{subsection*.38}%
+\contentsline {subsection}{\numberline {0.5.3}Komplexní směšovač}{27}{subsection*.39}%
+\contentsline {subsection}{\numberline {0.5.4}Filtrace a decimace}{27}{subsection*.40}%
+\contentsline {subsubsection}{FIR filtry}{27}{section*.41}%
+\contentsline {subsubsection}{CIC filtry}{28}{section*.43}%
+\contentsline {subsubsection}{decimace}{28}{section*.44}%
+\contentsline {subsection}{\numberline {0.5.5}FFT a streaming FFT}{28}{subsection*.45}%
+\contentsline {section}{\numberline {0.6}Implementace v FPGA}{28}{section*.46}%
+\contentsline {subsection}{\numberline {0.6.1}Aritmetika v pevné řádové čárce}{28}{subsection*.47}%
+\contentsline {subsection}{\numberline {0.6.2}Paralelní zpracování více vzorků za takt}{28}{subsection*.48}%
+\contentsline {subsection}{\numberline {0.6.3}Zdroje FPGA Arria V}{28}{subsection*.49}%
+\contentsline {chapter}{Aim of the thesis}{29}{section*.51}%
+\contentsline {chapter}{\numberline {1}Theory}{31}{chapter*.52}%
+\contentsline {chapter}{\numberline {2}Thesis Results}{33}{chapter*.53}%
+\contentsline {section}{\numberline {2.1}Selection of Programming Language}{33}{section*.54}%
+\contentsline {section}{\numberline {2.2}Implementation}{33}{section*.55}%
+\contentsline {subsection}{\numberline {2.2.1}Tests and Evaluation}{33}{subsection*.56}%
+\contentsline {subsubsection}{Integer rutrum orci vestibulum}{33}{section*.57}%
+\contentsline {subsubsection}{Eger rutrum orci westibulum}{34}{section*.58}%
+\contentsline {chapter}{Conclusion}{37}{section*.60}%
+\contentsline {chapter}{Bibliography}{39}{section*.62}%
+\contentsline {chapter}{Symbols and abbreviations}{41}{section*.64}%
+\contentsline {chapter}{List of appendices}{43}{section*.66}%
+\contentsline {chapter}{\numberline {A}Selected Commands of \texttt {thesis} Package }{45}{chapter*.67}%
+\contentsline {section}{\numberline {A.1}Quantities and Units }{45}{section*.68}%
+\contentsline {section}{\numberline {A.2}Symbols }{45}{section*.70}%
+\contentsline {chapter}{\numberline {B}Next Appendix }{47}{chapter*.72}%
+\contentsline {chapter}{\numberline {C}Examples of Listing Computer Codes }{49}{chapter*.73}%
+\contentsline {section}{\numberline {C.1}Package \texttt {listings} }{49}{section*.74}%
+\contentsline {chapter}{\numberline {D}Algorithms }{53}{chapter*.146}%
+\contentsline {chapter}{\numberline {E}Content of the electronic attachment }{55}{chapter*.149}%

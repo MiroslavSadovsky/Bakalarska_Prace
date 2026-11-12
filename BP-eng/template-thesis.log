@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  1 NOV 2026 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  12 NOV 2026 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,7 +1100,7 @@ Package babel Info: Main language set to 'english'.
 
 pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/TitulniList_color.pdf, id=116, 597.51233pt x 845.0471pt>
+<pdf/TitulniList_color.pdf, id=204, 597.51233pt x 845.0471pt>
 File: pdf/TitulniList_color.pdf Graphic file (type pdf)
 <use pdf/TitulniList_color.pdf>
 Package pdftex.def Info: pdf/TitulniList_color.pdf  used on input line 142.
@@ -1113,7 +1113,7 @@ pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex.exe (file ./pdf/TitulniList_color.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/TitulniList_color.pdf, id=118, page=1, 597.51233pt x 845.0471pt>
+<pdf/TitulniList_color.pdf, id=206, page=1, 597.51233pt x 845.0471pt>
 File: pdf/TitulniList_color.pdf Graphic file (type pdf)
 <use pdf/TitulniList_color.pdf, page 1>
 Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
@@ -1148,7 +1148,7 @@ Package pdftex.def Info: pdf/TitulniList_color.pdf , page1 used on input line 1
 
 pdfTeX warning: pdflatex.exe (file ./pdf/Zadani_color.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<pdf/Zadani_color.pdf, id=137, 597.51233pt x 845.0471pt>
+<pdf/Zadani_color.pdf, id=225, 597.51233pt x 845.0471pt>
 File: pdf/Zadani_color.pdf Graphic file (type pdf)
 <use pdf/Zadani_color.pdf>
 Package pdftex.def Info: pdf/Zadani_color.pdf  used on input line 150.
@@ -1161,7 +1161,7 @@ d PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/Zadani_color.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<pdf/Zadani_color.pdf, id=139, page=1, 597.51233pt x 845.0471pt>
+<pdf/Zadani_color.pdf, id=227, page=1, 597.51233pt x 845.0471pt>
 File: pdf/Zadani_color.pdf Graphic file (type pdf)
 <use pdf/Zadani_color.pdf, page 1>
 Package pdftex.def Info: pdf/Zadani_color.pdf , page1 used on input line 150.
@@ -1252,12 +1252,12 @@ c}{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 ] [11] [12
 
-] (template-thesis.toc
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 31.
- [13
+] (template-thesis.toc [13
 
-])
+]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 51.
+)
 \tf@toc=\write4
 \openout4 = `template-thesis.toc'.
 
@@ -1293,125 +1293,153 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 \openout2 = `text/introduction.aux'.
 
  (text/introduction.tex
-
-LaTeX Warning: Citation `PDG' on page 23 undefined on input line 34.
+Overfull \hbox (44.8736pt too wide) in paragraph at lines 27--36
+[] \T1/lmr/m/n/12 Har-mon-ické £íslo je bezrozm¥rné
+ []
 
 [23
 
 
-{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
-Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+<pict/cern_accelerator_complex.png, id=438, 5591.7708pt x 4552.5282pt>
+File: pict/cern_accelerator_complex.png Graphic file (type png)
+<use pict/cern_accelerator_complex.png>
+Package pdftex.def Info: pict/cern_accelerator_complex.png  used on input line 
+57.
+(pdftex.def)             Requested size: 426.79137pt x 347.46841pt.
 
-LaTeX Warning: Citation `Wille' on page 24 undefined on input line 50.
+Underfull \vbox (badness 4217) has occurred while \output is active []
 
-[24{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
-nc}] [25]
-Overfull \hbox (8.20723pt too wide) in paragraph at lines 102--102
-[]\T1/lmss/bx/n/17.28 seznámení s pouºitými sou£áskami pro nové °e²ení,
- []
-
-[26] [27]) [28] [29]
+ [24]
+[25 <./pict/cern_accelerator_complex.png (PNG copy)>] [26]) [27{C:/Users/miri-/
+AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [28]
 \openout2 = `text/objectives.aux'.
 
- (text/objectives.tex [30
+
+(text/objectives.tex) [29
+
+
+
+
+]
+\openout2 = `text/solution.aux'.
+
+ (text/solution.tex [30
 
 
 
 
 ]) [31]
-\openout2 = `text/solution.aux'.
+\openout2 = `text/results.aux'.
 
- (text/solution.tex
+ (text/results.tex
 [32
 
 
 
 
-]) [33]
-\openout2 = `text/results.aux'.
-
- (text/results.tex [34
-
-
-
-
 ]
 
-LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 6.
+LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 6.
 
 
-LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 12.
+LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 12.
 
 
-LaTeX Warning: Citation `pravidla' on page 35 undefined on input line 12.
+LaTeX Warning: Citation `pravidla' on page 33 undefined on input line 12.
 
-[35]
+[33]
 
-LaTeX Warning: Citation `Walter1999' on page 36 undefined on input line 19.
+LaTeX Warning: Citation `Walter1999' on page 34 undefined on input line 19.
 
 
-LaTeX Warning: Citation `Svacina1999IEEE' on page 36 undefined on input line 19
+LaTeX Warning: Citation `Svacina1999IEEE' on page 34 undefined on input line 19
 .
 
 
-LaTeX Warning: Citation `RajmicSysel2002' on page 36 undefined on input line 19
+LaTeX Warning: Citation `RajmicSysel2002' on page 34 undefined on input line 19
 .
 
 
-LaTeX Warning: Citation `CSN_ISO_690-2022' on page 36 undefined on input line 2
+LaTeX Warning: Citation `CSN_ISO_690-2022' on page 34 undefined on input line 2
 2.
 
 
-LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 36 undefined on input line 
+LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 34 undefined on input line 
 22.
 
 
-LaTeX Warning: Citation `CSN_ISO_31-11' on page 36 undefined on input line 22.
+LaTeX Warning: Citation `CSN_ISO_31-11' on page 34 undefined on input line 22.
 
 
-LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 36 undefine
+LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 34 undefine
 d on input line 24.
 
-[36]) [37]
+[34]) [35]
 \openout2 = `text/conclusion.aux'.
 
- (text/conclusion.tex [38
+ (text/conclusion.tex [36
 
 
 
 
-]) [39]
+]) [37]
 \openout2 = `text/bibliography.aux'.
 
  (text/bibliography.tex
-(template-thesis.bbl [40
+(template-thesis.bbl [38
 
-
-
-
-])) [41]
-\openout2 = `text/abbreviation.aux'.
-
- (text/abbreviation.tex [42
-
-
-
-
-]) [43
-
-] [44
 
 
 
 ]
-(template-thesis.toa)
+Underfull \hbox (badness 1661) in paragraph at lines 4--8
+[]\T1/lmr/m/n/12 Accelerators.  [on-line], 11 2026.  URL: []$\T1/lmtt/m/n/12 <[
+]https : / / home . cern / science /
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 10--14
+[]\T1/lmr/m/n/12 Accelerators.  [on-line], 11 2026.  URL: []$\T1/lmtt/m/n/12 <[
+]https : / / www . gml . cz / uploads /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\T1/lmtt/m/n/12 2026-[]11-[]10 % 20-[] % 20Prezentace % 20CERN % 20Jiri % 20Jal
+uvka % 2C % 20Tomas %
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 25--29
+[]\T1/lmr/m/n/12 Accelerators.  [on-line], 11 2026.  URL: []$\T1/lmtt/m/n/12 <[
+]https : / / home . cern / science /
+ []
+
+)) [39]
+\openout2 = `text/abbreviation.aux'.
+
+ (text/abbreviation.tex [40
+
+
+
+
+]) [41
+
+] [42
+
+
+
+] (template-thesis.toa)
 \tf@toa=\write9
 \openout9 = `template-thesis.toa'.
 
- [45]
+ [43]
 \openout2 = `text/appendix.aux'.
 
- (text/appendix.tex [46
+
+(text/appendix.tex [44
 
 
 ]
@@ -1419,20 +1447,13 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 9.
- [47] [48
+ [45] [46
 
-]
-<pict/ZlepseneWilsonovoZrcadloNPN.png, id=480, 556.0775pt x 434.62375pt>
-File: pict/ZlepseneWilsonovoZrcadloNPN.png Graphic file (type png)
-<use pict/ZlepseneWilsonovoZrcadloNPN.png>
-Package pdftex.def Info: pict/ZlepseneWilsonovoZrcadloNPN.png  used on input li
-ne 61.
-(pdftex.def)             Requested size: 278.03807pt x 217.31134pt.
- [49 <./pict/ZlepseneWilsonovoZrcadloNPN.png>] [50
+] [47] [48
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 70.
 
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
@@ -1467,27 +1488,27 @@ File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 (text/abbreviation.tex)
 Package acronym Info: Label `acro:symfs' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 100.
+although it is yet undefined on input line 95.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 104.
+nput line 99.
  (text/abbreviation.tex) (text/abbreviation.tex)
-[51]
+[49]
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 173.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 168.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52
+ [50
 
 ]
-[53] [54
+[51] [52
 
-] [55] [56
+] [53] [54
 
-]) [57]
+]) [55]
 \c@page@count=\count359
  (template-thesis.aux (text/introduction.aux)
 (text/objectives.aux) (text/solution.aux) (text/results.aux)
@@ -1502,17 +1523,17 @@ L3 programming layer <2026-08-10>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `template-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A5EFA5FB0259D3383F1DBC592EBF29F3;4857.
+(rerunfilecheck)             Checksum: 7335389293152F069FF2AE8DDA6109E0;9070.
  )
 (\end occurred when \ifx on line 18 was incomplete) 
 Here is how much of TeX's memory you used:
- 21208 strings out of 467441
- 340690 string characters out of 5407591
- 1002518 words of memory out of 5000000
- 49797 multiletter control sequences out of 15000+600000
+ 21245 strings out of 467441
+ 341228 string characters out of 5407591
+ 1003617 words of memory out of 5000000
+ 49816 multiletter control sequences out of 15000+600000
  815730 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,90p,1041b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,17n,90p,978b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/miri-/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/miri-/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/miri-/AppDa
@@ -1539,9 +1560,9 @@ al/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on template-thesis.pdf (57 pages, 1989771 bytes).
+Output written on template-thesis.pdf (55 pages, 7357402 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 192 named destinations out of 1000 (max. 500000)
- 284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 844 PDF objects out of 1000 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
 

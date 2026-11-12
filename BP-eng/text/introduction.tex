@@ -2,13 +2,15 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{Introduction}
 
-\section{Accelerators and proton SPILL}
-Urychlovač částic je zařízení, které, pomocí elektromagnetických polí, pohání nabité částice. Takové částice se pak mohou pohybovat rychlostí, která je blízká rychlosti světla. Používají se hlavně v oblasti zdravotnictví a výzkumu. Ve zdravotnitví v rámci onkologie, kde se urychlené částice používají ke specialitovanému ozařování maligní tkáně. Ve vědecké sféře se pak v rámci experimentů z oblasti částicové fyziky tyto urychlené částice nechávají narážet do sebe nebo do pevného terče, ať už za účelem zkoumání nových částic, antihmoty, nebo kvůli co nejvěrnější simulaci Velkého třesku.
+\section{Urychlovač SPS a slow extrakce}
+\subsection{Úvod do urychlovačů částic}
+Urychlovač částic je zařízení, které, pomocí elektromagnetických polí, pohání nabité částice. Takové částice se pak mohou pohybovat rychlostí, která je blízká rychlosti světla. Urychlovače se využívají ve zdravotnictví, průmyslu a výzkumu. Ve zdravotnictví slouží zejména v~onkologii k~cílenému ozařování nádorové tkáně. Ve vědecké sféře se pak v rámci experimentů z oblasti částicové fyziky tyto urychlené částice nechávají narážet do sebe nebo do pevného terče, ať už za účelem zkoumání nových částic, antihmoty, či zkoumání vlastností hmoty při vysokých energiích.
 
 Existují dva hlavní typy urychlovačů:
 \begin{enumerate}
-	\item \textbf{Lineární urychlovač (Linac)} -- Částice se pohybují po přímé dráze skrz sérii rezonančních dutin. Vysokofrekvenční elektrické pole je postupně urychluje, zatímco magnetické pole slouží pouze k udržení úzkého profilu paprsku. Výhodou je absence energetických ztrát způsobených změnou směru letu.
-	\item \textbf{Kruhový urychlovač (např. synchrotron nebo cyklotron)} -- Částice obíhají v uzavřené trubici. Silné dipólové elektromagnety zakřivují jejich dráhu, takže částice mohou stejným urychlovacím úsekem s elektrickým polem projít mnohokrát. To umožňuje dosáhnout extrémních energií na menším prostoru.
+	\item \textbf{Lineární urychlovač (Linac)} -- Částice se pohybují po přímé dráze skrz sérii rezonančních dutin. Vysokofrekvenční elektrické pole je postupně urychluje, zatímco magnetické pole slouží pouze k udržení úzkého profilu paprsku. Výhodou je absence energetických ztrát způsobených změnou směru letu což je významné
+	zejména u~lehkých částic, jako jsou elektrony.
+	\item \textbf{Kruhový urychlovač} -- Částice obíhají v~uzavřené vakuové trubici. Silné dipólové elektromagnety zakřivují jejich dráhu, takže částice mohou stejným urychlovacím úsekem s elektrickým polem projít mnohokrát. To umožňuje dosáhnout extrémních energií na menším prostoru.
 \end{enumerate}
 
 
@@ -16,23 +18,197 @@ Existují dva hlavní typy urychlovačů:
 
 
 \subsection{Princip synchrotronu}
+Synchrotrony jsou kruhové urychlovače, které urychlují částice v uzavřené křivce. Mohou tedy dosáhnout větší energie urychlených svazků. Části synchrotronu fungují následovně:
+
+\subsubsection{RF dutiny}
+Pro zrychlení částic je potřeba elektrické pole. Aby však částice obíhala po uzavřené kruhové dráze, nelze použít statické elektrické pole, protože by částice po jedné periodě se ocitla na místě se stejným potenciálem a celková práce by byla nulová. Je tedy třeba použít střídavého elektrického pole. Pole kmitá frekvencí:
+\begin{equation}
+	f_\text{RF} = h\,f_\text{rev}
+\end{equation}
+\vspace{0.5em}
+\noindent kde je: \\
+\begin{tabular}{l l l}
+	$f_\text{RF}$ & frekvence kmitů elektrického pole v dutinách & $[\text{Hz}]$ \\
+	$f_\text{rev}$ & oběžná frekvence částice & $[\text{Hz}]$ \\
+	$h$ & harmonické číslo () & $[-]$ \\
+\end{tabular}
+Harmonické číslo je bezrozměrné celé číslo, které říká, kolikrát pole v dutině zakmitá během jednoho oběhu částice. Zároveň udává, kolik stabilních oblastí je rozmístěno po obvodu.
+
+%RF dutiny – tvůj stávající odstavec o střídavém poli. Doplň, že pole kmitá s frekvencí $f_\text{RF} = h\,f_\text{rev}$, a proto je svazek rozdělen do shluků. Sem patří obrázek dutiny.
+%Dipóly – ohýbají dráhu do kruhu. S rostoucí energií musí růst i jejich pole, odtud název „synchrotron“.
+%Kvadrupóly a betatronové kmity – fokusují svazek. Síla roste s výchylkou, takže působí jako pružina a částice kolem ideální dráhy kmitají. To jsou betatronové kmity.
+%Tune – počet betatronových kmitů za jeden oběh. Závisí na síle kvadrupólů. Když je blízko racionálního čísla, hrozí rezonance. Tohle je věta, na kterou pak odkážeš v extrakci.
+%Sextupóly – nelineární magnety. Korigují chromaticitu a při pomalé extrakci budí rezonanci. Tady stačí zmínka, detaily jsou v podkapitole o extrakci.
 
 
+\subsection{Komplex urychlovačů CERN}
+V rámci mezinárodní organizace CERN je provozováno vícero lineárních a kruhových urychlovačů. V rámci výzkumných experimentů je potřeba zapojit celou kaskádu urychlovačů, kde každý urychlovač urychlí protony na postupně větší a větší energii. Konec této kaskády tvoří Large Hadron Collider (LHC), kde energie částic může dosahovat až $6{,}8\,\text{TeV}$.~\cite{cern_accelerator_complex} 
 
+Mezi nejznámější urychlovače se řadí Proton synchrotron s obvodem $628\,\text{m}$ \cite{gml_prednaska}, Super Proton Synchrotron s obvodem $6{,}9\,\text{km}$ \cite[kap.~IV.A]{Etisken2023} a Large Hadron Collider s obvodem $27\,\text{km}$ \cite{cern_LHC}
 
-V rámci mezinárodní organizace CERN existuje vícero lineárních i kruhových urychlovačů, předmětem práce však bude Super Proton Synchrotron.
+Celý proces začíná ionizací vodíku, při níž vznikají záporné vodíkové ionty
+H$^-$. Lineární urychlovač Linac4 svazek těchto částic urychlí na $160\,\text{MeV}$. Při injekci do Proton Synchrotron Boosteru (PSB) jsou z~iontů odstraněny oba elektrony,
+takže dále pokračují čisté protony. PSB urychlí protony na $2\,\text{GeV}$ a injektuje je do Proton Synchrotronu (PS), ze kterého už protony, urychlené na $25\,\text{GeV}$, následně putují do Super Proton Synchrotronu (SPS), kde dosahují energie až $450\,\text{GeV}$
+
+Částice se urychlují pro různé experimety, které vyžadují určité parametry pro částice. Proto ne vždy je potřeba urychlovat částice až na úroveň LHC, často tedy jsou částice, nebo svazky částic odváděny už dříve. podobněji je to znázorněno na obr.~\ref{fig:cern_komplex_schema}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1\textwidth]{pict/cern_accelerator_complex.png}
+	\caption{Schéma akcelerátorového komplexu CERN} 
+	\label{fig:cern_komplex_schema}
+\end{figure}
 
 \subsection{Super Proton Synchrotron}
-Super Proton Synchrotron (SPS) je druhý největší kruhový urychlovač v CERN o obvodu 6911,5~m \cite[kap.~IV.A]{Etisken2023}. Protony v něm obíhají s energií $400 \,\text{GeV}$ a frekvencí $f_{rev} = 43{,}38 \,\text{kHz}$ \cite{DAQ_Belohrad}.
+Super Proton Synchrotron je druhý největší kruhový urychlovač v CERN o obvodu 6911,5~m \cite[kap.~IV.A]{Etisken2023}. Protony v něm obíhají s energií až $450 \,\text{GeV}$ a frekvencí $f_{rev} = 43{,}38 \,\text{kHz}$ \cite{DAQ_Belohrad}.
 
-SPS je posledním urychlovačem v řetězci injektorů LHC, ale jeho hlavními uživateli jsou experimenty s pevným terčem v North Area \cite{Velotti}.
+SPS je posledním urychlovačem v řetězci injektorů LHC, ale jeho hlavními uživateli jsou experimenty s pevným terčem v oblasti North Area \cite{Velotti} viz. \ref{fig:cern_komplex_schema} (viz obr.~\ref{fig:cern_komplex_schema}). Pro LHC jsou
+protony urychlovány na $450\,\text{GeV}$, pro experimenty v~North Area na
+$400\,\text{GeV}$~\cite{Velotti}.
+
+\subsection{Pomalá rezonanční extrakce}
+%Svazek lze z~kruhového urychlovače vyvést dvěma způsoby. Při rychlé extrakci
+%vychýlí rychlý magnet celý svazek během jediného oběhu. Takto se
+%plní například LHC. Experimenty s~pevným terčem však vyžadují, aby byly
+%protony na terč dodávány co nejrovnoměrněji, tedy s~co nejvyšším tzv.
+%\emph{duty factorem} (viz kap.~\ref{sec:spill}). To vede k~nutnosti pomalé
+%extrakce, při níž se svazek vyvádí postupně po dobu několika
+%sekund~\cite{Velotti}.
+%
+%V~SPS se k~pomalé extrakci využívá "third-integer" rezonanci \cite{Velotti}. Horizontální
+%betatronový tune svazku $\nu_x$ se přiblíží k~rezonanční podmínce
+%\begin{equation}
+%	3\nu_x = n, \qquad n \in \mathbf{Z},
+%	\label{eq:rezonance}
+%\end{equation}
+%%třetí řád, protože se opakuje fáze po třech obězích
+%přičemž nominální hodnota pro svazky pro pevný terč je
+%$\nu_x = 26{,}66$~\cite{Velotti}, tedy těsně u~hodnoty $80/3$. Rezonanci
+%budí čtyři extrakční sextupólové magnety~\cite{Velotti}. Jejich pole roste
+%s~kvadrátem výchylky částice, a proto do pohybu vnáší nelinearitu.
+%
+%Vliv rezonance je nejlépe vidět ve fázovém prostoru, tedy v~rovině tvořené
+%polohou částice $x$ a jejím úhlem $x'$. Nelinearita rozdělí fázový prostor na
+%dvě oblasti. Uvnitř trojúhelníkové oblasti jsou trajektorie částic stabilní.
+%Vně této oblasti amplituda kmitů s~každým oběhem roste. Hranice mezi oběma
+%oblastmi se nazývá separatrix~\cite{TODO_benedikt}. Čím blíže je tune
+%rezonanci, tím menší je stabilní oblast.
+%
+%Aby byly částice vyváděny postupně, využívá se závislosti tune na hybnosti
+%částice. Tuto závislost popisuje chromaticita $\xi_x$ a pro částici
+%s~relativní odchylkou hybnosti $\delta$ platí
+%\begin{equation}
+%	\nu_x(\delta) = \nu_x\,(1 + \xi_x \delta).
+%	\label{eq:chromaticita}
+%\end{equation}
+%V~SPS je horizontální chromaticita nastavena na $\xi_x = -1$. Síla
+%kvadrupólů se během extrakce plynule mění, takže rezonance postupně
+%\uv{projíždí} rozložením hybností svazku a částice s~různou hybností jsou
+%vyváděny v~různých časech. Rychlost této změny je nastavena tak, aby
+%intenzita vyvedeného svazku byla co nejkonstantnější~\cite{Velotti}.
+%
+%Aby měl svazek dostatečně široké a rovnoměrné rozložení hybností, provádí se
+%před extrakcí tzv. RF gymnastika. Fáze urychlovacího pole se nakrátko přepne
+%do nestabilní polohy, poté vrátí zpět a nakonec se napětí všech dutin nastaví
+%na nulu. Svazek se následně rozplyne do spojitého proudu (debunchování), čímž
+%se omezí modulace extrahovaného svazku na frekvenci $200\,\text{MHz}$
+%\cite{Velotti}.
+%
+%Částice, které opustí stabilní oblast, se s~rostoucí amplitudou přibližují
+%k~elektrostatickému septu ZS. To je tenká řada drátů oddělující cirkulující
+%svazek od extrakčního kanálu. Svazek je k~septu přiblížen lokální deformací
+%uzavřené dráhy pomocí pěti korekčních magnetů s~maximální výchylkou
+%$48\,\text{mm}$. Septum ZS odkloní částice do extrakčního kanálu
+%a magnetická septa MST a MSE je dále vychýlí do přenosové linky TT20
+%v~úseku LSS2. Takto lze vyvést až $4\cdot10^{13}$ protonů o~energii
+%$400\,\text{GeV}$ za jeden spill~\cite{Velotti}.
+
+\subsection{Spill a frekvence zájmu}
+
+%Spill je souvislý tok protonů vyvedených z~SPS během jedné pomalé
+%extrakce. V~současném provozu trvá $4{,}8\,\text{s}$
+%\cite{DAQ_Belohrad, TODO_Benitez2023}, což při oběžné frekvenci
+%$43{,}38\,\text{kHz}$ odpovídá přibližně $2\cdot10^5$ oběhům. Specifikace
+%počítá s~tím, že délka spillu nepřesáhne $10\,\text{s}$~\cite{DAQ_Belohrad}
+%a pro budoucí experimenty může být kratší, až $1\,\text{s}$
+%\cite{TODO_Benitez2023}.
+%
+%Ideální spill má konstantní okamžitou intenzitu. Jak vyplývá
+%z~kap.~\ref{sec:pomala_extrakce}, rychlost extrakce je však velmi citlivá na
+%přesnou hodnotu tune. Tune závisí na proudu v~kvadrupólových magnetech, takže
+%i~malé zvlnění jejich napájecích zdrojů se projeví jako výrazná modulace
+%intenzity spillu. Monitory spillu na SPS proto běžně zaznamenávají složky
+%$50\,\text{Hz}$ a $100\,\text{Hz}$ pocházející z~napájení
+%magnetů~\cite{TODO_Benitez2023}.
+%
+%Kvalitu spillu z~pohledu experimentů vyjadřuje duty factor
+%\begin{equation}
+%	F = \frac{\langle I \rangle^2}{\langle I^2 \rangle},
+%	\label{eq:duty_factor}
+%\end{equation}
+%kde $I$ je okamžitá intenzita a $\langle\cdot\rangle$ značí střední hodnotu
+%přes dobu spillu~\cite{TODO_experimenters_handbook}. Pro konstantní
+%intenzitu je $F = 1$. Uvažujme spill se sinusovou modulací o~hloubce $m$,
+%tedy $I(t) = I_0(1 + m\sin\omega t)$. Střední hodnota sinu je nulová
+%a střední hodnota $\sin^2$ je $1/2$, odkud plyne
+%\begin{equation}
+%	F = \frac{I_0^2}{I_0^2\left(1 + m^2/2\right)} = \frac{1}{1 + m^2/2}.
+%	\label{eq:duty_factor_sin}
+%\end{equation}
+%Každá spektrální složka spillu tedy duty factor snižuje. Znalost spektra
+%spillu a jeho vývoje v~čase je proto pro optimalizaci extrakce
+%klíčová~\cite{TODO_zadani}.
+%
+%Frekvence, které jsou ve spektru spillu z~provozního hlediska podstatné,
+%shrnuje tab.~\ref{tab:frekvence_zajmu}.
+%
+%\begin{table}[htbp]
+%	\centering
+%	\caption{Frekvence zájmu ve spektru spillu
+%		\cite{TODO_Benitez2023, DAQ_Belohrad, TODO_zadani}.}
+%	\label{tab:frekvence_zajmu}
+%	\begin{tabular}{lll}
+%		\hline
+%		Složka & Frekvence & Původ \\
+%		\hline
+%		Napájecí zdroje magnetů & 10\,Hz -- 10\,kHz & zvlnění proudu magnetů \\
+%		Oběžná frekvence SPS & 43,38\,kHz, 86\,kHz & nerovnoměrné zaplnění prstence \\
+%		Oběžná frekvence PS & 477\,kHz & časová struktura z~injektoru \\
+%		RF systém SPS & 200\,MHz & nedokonalé debunchování \\
+%		Harmonický RF systém & 800\,MHz & podélná stabilizace svazku \\
+%		\hline
+%	\end{tabular}
+%\end{table}
+%
+%Složky od napájecích zdrojů vznikají mechanismem popsaným výše. Oběžná
+%frekvence SPS a její druhá harmonická jsou důsledkem nerovnoměrného zaplnění
+%prstence. Svazek tvoří dvě injekce o~délce $10{,}5\,\mu\text{s}$, za každou
+%z~nich následuje mezera $1{,}05\,\mu\text{s}$ potřebná pro náběh kickeru
+%odklápěče svazku~\cite{TODO_Benitez2023}. Součet
+%$2\times(10{,}5 + 1{,}05)\,\mu\text{s} = 23{,}1\,\mu\text{s}$ odpovídá době
+%oběhu, takže se v~intenzitě spillu opakují dvě mezery za oběh. Složka
+%$477\,\text{kHz}$ je pozůstatkem časové struktury svazku z~injektoru
+%PS~\cite{TODO_Benitez2023}. Obvod PS je jedenáctinou obvodu SPS, a proto
+%$477\,\text{kHz} \approx 11 f_\text{rev}$.
+%
+%Složka $200\,\text{MHz}$ odpovídá frekvenci hlavního urychlovacího RF systému
+%SPS~\cite{TODO_Hagmann2019}. Pokud debunchování svazku před extrakcí není
+%dokonalé, zůstane ve spillu struktura s~periodou $5\,\text{ns}$ a ve spektru
+%se objeví čára na této frekvenci~\cite{Velotti, DAQ_Belohrad}. SPS je dále
+%vybaven RF systémem $800\,\text{MHz}$, který slouží k~podélné stabilizaci
+%svazku, konkrétně k~Landauovu tlumení~\cite{TODO_Hagmann2019} a podélnému
+%rozmítání svazku~\cite{TODO_Benitez2023}.
+%
+%Frekvence zájmu tedy pokrývají rozsah od jednotek hertzů po stovky
+%megahertzů, tedy přes osm řádů. To klade značné nároky na měřicí systém,
+%jehož princip popisuje následující kapitola.
+
 
 
 \section{SPILL monitoring}
 
-
-\section{Aktuálně implementovaný měřicí řetězec}
-OTR - Optical Transition Radiation, PMT - Photomultiplier tube, 
+\subsection{monitory spill na SPS}
+\subsection{Optické přechodové záření}
 OTR - záblesk viditelného světla, který vznikne ve chvíli, kdy rychlá nabitá částice překročí hranici dvou prostředí s různými vlastnostmi. V praxi urychlovačů k tomu dochází typicky tehdy, když částice letící vakuem narazí na tenkou kovovou fólii.
 
 Kde se toto záření bere:
@@ -48,48 +224,38 @@ Jaderné srážky (Ztráta částic): Zcela nepatrné procento částic se tref�
 
 Právě proto se OTR fólie vyrábějí z co nejlehčích kovů (často titan nebo hliník) a jsou extrémně tenké, typicky jen jednotky mikrometrů. V případě vyváděného svazku (spill) projdou částice touto fólií pouze jednou na své konečné cestě k experimentu. Zmíněné drobné znehodnocení svazku je tak pro fyziky naprosto přijatelnou daní za to, že získají jeho přesný časový a prostorový profil.
 
-\vspace*{20pt}
+
+
+\subsection{Fotonásobič a analogová úprava signálu}
+
+\section{Aktuálně implementovaný měřicí řetězec}
+
+\subsection{Hardwarová platforma}
+\subsection{Formát dat a rozhraní ADC}
+\subsection{režimy měření}
+\subsection{Omezení součastného řešení}
+
+
 
 
 
 \section{Základy číslicového zpracování signálu}
-
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida viverra tincidunt. Etiam ultricies eget velit at elementum. Etiam congue, diam ut egestas porttitor, sapien neque eleifend lectus, vitae congue elit odio vitae mi. Proin sodales eros id ligula vestibulum consectetur. Proin elementum sollicitudin nunc nec eleifend. Fusce sit amet aliquet lectus, rutrum cursus libero. Mauris varius ultrices lorem, ac cursus velit dapibus ut. Sed elementum hendrerit nunc in hendrerit. In fringilla, eros nec lacinia dignissim, enim libero lacinia tellus, in rhoncus erat mauris nec enim.
-
-Pellentesque vulputate erat in rutrum tincidunt. Maecenas vel est id lorem lacinia egestas eu quis purus. Curabitur sodales nulla id dui volutpat, nec euismod ligula congue. Pellentesque finibus id orci vitae finibus. Curabitur ultrices odio quis dolor finibus euismod. Sed ornare vulputate nulla, id aliquet tellus porta nec. Ut fringilla, nisl vitae semper finibus, felis elit fermentum arcu, at porttitor purus quam in metus. Nulla at tortor bibendum, mattis ante eget, imperdiet metus. In quis tellus dapibus augue pharetra luctus id sed tellus. Nullam lacinia diam nec sapien posuere convallis.
-
-Pellentesque porttitor mi in dolor pretium suscipit. In sit amet finibus sapien, quis hendrerit tellus. Sed egestas accumsan velit, quis pulvinar elit accumsan rhoncus. Fusce quis sodales diam, id sollicitudin ipsum. Nam vulputate fringilla ipsum, vel interdum est tempus vulputate. Etiam leo nunc, sollicitudin volutpat ex sed, consequat interdum nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque finibus odio eleifend ullamcorper tempor. Quisque vel neque tortor. Cras eleifend fringilla ligula, nec vestibulum est lacinia at. Ut nisl augue, vestibulum non eros vitae, tempus ornare urna. Curabitur rutrum ornare nunc at vestibulum. Nullam ut diam in metus varius posuere volutpat eu risus. Curabitur et interdum sem, imperdiet aliquet nisl. Ut facilisis tortor scelerisque, pretium turpis id, pellentesque leo. Praesent finibus diam lorem, in maximus ligula facilisis eu.
-
-Etiam odio erat, venenatis nec urna eget, efficitur efficitur nulla. Mauris et leo nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus ut mauris erat. Nullam porta nibh tortor, et tempus turpis vehicula a. Fusce non mauris posuere, blandit nisl sit amet, scelerisque felis. Curabitur ac rhoncus urna. Morbi vestibulum tellus leo, ac pulvinar tellus placerat varius. Sed ac vestibulum tellus. Nam enim velit, laoreet quis augue a, luctus feugiat enim. Sed in massa eget arcu pellentesque suscipit. Quisque suscipit lacinia dolor, vel fermentum orci hendrerit et. 
+\subsection{vzorkování a kvantování}
+\subsection{Diskrétní Fourierova transformace}
+\subsection{Odhad spektra}
+\subsection{Charakteristiky a metriky signálu}
 
 
 \section{Softwarově definované radio}
 
 
-\subsection{SDR}
-Phasellus sed ullamcorper quam. Vivamus sagittis ante facilisis tincidunt lacinia. Nam rhoncus turpis facilisis tincidunt ultricies. Curabitur varius vel magna sed rhoncus. Sed aliquam ante sed odio pulvinar vulputate. Suspendisse facilisis dui nec urna rhoncus volutpat. Etiam nunc sapien, malesuada varius nisi at, varius blandit dui. Etiam malesuada velit ut neque posuere sollicitudin.
-
-\subsection{Snímač}
-Proin tempor congue magna. Fusce vitae egestas nisl. Donec et efficitur leo. Integer scelerisque convallis nisi, eget lacinia quam lacinia tempor. Nam non tempus tortor, quis pellentesque lectus. Sed dignissim neque molestie dapibus pretium. Morbi condimentum posuere purus, at convallis augue dapibus vestibulum. Vestibulum quis volutpat quam. Praesent vulputate eros in dolor aliquam, ac blandit libero varius. 
+\subsection{Princip digitální down-konverze}
+\subsection{Numericky řízený oscilátor}
+\subsection{Komplexní směšovač}
 
 
-\subsection{A/D převodník}
-Proin tempor congue magna. Fusce vitae egestas nisl. Donec et efficitur leo. Integer scelerisque convallis nisi, eget lacinia quam lacinia tempor. Nam non tempus tortor, quis pellentesque lectus. Sed dignissim neque molestie dapibus pretium. Morbi condimentum posuere purus, at convallis augue dapibus vestibulum. Vestibulum quis volutpat quam. Praesent vulputate eros in dolor aliquam, ac blandit libero varius. 
-
-\subsection{FPGA}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada tortor eget est vestibulum ornare. Curabitur ac tortor felis. Vestibulum vehicula lacus quis est bibendum, ut efficitur ante euismod. Aliquam in auctor massa, id aliquet dolor. Nam quis nisi felis. Fusce tincidunt pellentesque orci, id rhoncus mi tempus nec. Aenean placerat mauris sit amet velit tempor, quis malesuada lacus tincidunt. Ut et quam lobortis, viverra metus a, porta massa. Pellentesque in velit rutrum, suscipit dolor eget, molestie ante. Proin quis mauris nisi. Ut non ex sit amet massa ornare aliquam. In interdum fringilla felis sed tempus. Vestibulum gravida condimentum dolor nec dictum. Pellentesque non facilisis ex, sed euismod dolor.
-
-\subsubsection{NCO}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet scelerisque nunc. Cras suscipit dui et erat aliquet scelerisque. Maecenas ultrices semper lobortis. Cras auctor tincidunt sem, varius porttitor diam euismod vitae. Fusce id vulputate ligula. Vestibulum lacinia tortor id iaculis dignissim. Aliquam erat volutpat. Praesent at tristique quam. Nam mollis libero non nisl gravida cursus. Nullam auctor eu velit at sollicitudin. Fusce viverra lectus ac leo hendrerit, in tincidunt odio tempor. 
-
-\subsubsection{mixer}
-Cras luctus rhoncus lacinia. In a malesuada sapien. Mauris fermentum, tellus ut tristique efficitur, ante augue cursus magna, quis euismod nibh orci tincidunt dui. Morbi tincidunt, lorem eu hendrerit placerat, lectus orci commodo massa, vel facilisis dolor elit sed dolor. Etiam pulvinar blandit justo, at feugiat risus varius dictum. Sed pellentesque erat nec mi ornare, et gravida lacus placerat. Sed at sem rutrum, pellentesque nisi sit amet, pharetra sem. Aliquam orci libero, commodo eu cursus pretium, volutpat vel turpis. Nam sollicitudin tortor id ornare sodales. Praesent a commodo leo, vitae volutpat est. Donec vulputate scelerisque neque, id commodo risus dapibus sed. Donec ultricies sollicitudin velit non pharetra. Morbi malesuada ultricies nulla, id egestas purus hendrerit eu. Fusce pretium ac metus vel gravida. Vivamus vitae dui felis. Sed sagittis lacinia libero nec faucibus. 
-
-\subsubsection{CIC filtr}
-Ut cursus nunc at justo mattis cursus. Nam quis ligula nulla. Integer tincidunt at felis a pulvinar. Proin rhoncus condimentum maximus. Suspendisse ac metus euismod, posuere erat eu, tincidunt arcu. Nulla facilisi. Vivamus volutpat, leo vel laoreet facilisis, purus ligula ornare tellus, nec molestie libero lorem a augue. Quisque a erat gravida, bibendum sapien a, dictum nunc. Nunc at nisl id lacus facilisis fringilla a at ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-
-\subsubsection{FIR filtr}
-
+\subsection{Filtrace a decimace}
+\subsubsection{FIR filtry}
 FIR filtr je filtr, který má konečnou odezvu na jednotkový impulz, budu používat digitální, takže jde o počet koeficietů ($h[n] = b_0 + b_1z^{-1} + b_2z^{-2} +x\dots$), kde počet koeficientů, kterým se říká taps a jejich počet přímo odpovídá, kolik kroků bude trvat odezva na jenotkový impulz.
 
 \begin{equation}
@@ -101,12 +267,19 @@ FIR filtr je filtr, který má konečnou odezvu na jednotkový impulz, budu pou�
 	\end{array}
 	\right.
 \end{equation}
-
-\subsubsection{decimator}
-Nam cursus ultricies diam eu hendrerit. Aliquam erat volutpat. Morbi tellus arcu, porta vitae malesuada sit amet, auctor vitae dolor. In hac habitasse platea dictumst. Aliquam sit amet ultrices lorem. Donec laoreet ornare dapibus. Nunc ut posuere eros, ut laoreet nulla. Nam placerat, tortor eget venenatis tempor, est elit aliquet felis, ac egestas mi lacus vel arcu. Aenean sit amet feugiat lorem, nec ultrices eros.
-
-\subsubsection{FFT}
-Cras luctus rhoncus lacinia. In a malesuada sapien. Mauris fermentum, tellus ut tristique efficitur, ante augue cursus magna, quis euismod nibh orci tincidunt dui. Morbi tincidunt, lorem eu hendrerit placerat, lectus orci commodo massa, vel facilisis dolor elit sed dolor. Etiam pulvinar blandit justo, at feugiat risus varius dictum. Sed pellentesque erat nec mi ornare, et gravida lacus placerat. Sed at sem rutrum, pellentesque nisi sit amet, pharetra sem. Aliquam orci libero, commodo eu cursus pretium, volutpat vel turpis. Nam sollicitudin tortor id ornare sodales. Praesent a commodo leo, vitae volutpat est. Donec vulputate scelerisque neque, id commodo risus dapibus sed. Donec ultricies sollicitudin velit non pharetra. Morbi malesuada ultricies nulla, id egestas purus hendrerit eu. Fusce pretium ac metus vel gravida. Vivamus vitae dui felis. Sed sagittis lacinia libero nec faucibus. 
+\subsubsection{CIC filtry}
+\subsubsection{decimace}
 
 
-\section{Implementacev FPGA}
+\subsection{FFT a streaming FFT}
+
+
+
+\section{Implementace v FPGA}
+\subsection{Aritmetika v pevné řádové čárce}
+\subsection{Paralelní zpracování více vzorků za takt}
+\subsection{Zdroje FPGA Arria V}
+
+
+
+

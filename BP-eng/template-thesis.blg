@@ -26,15 +26,6 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: text/literatura.bib
-I was expecting a `,' or a `}'---line 125 of file text/literatura.bib
- : 
- : %příklady citování různých zdrojů
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "BEOP_SPS"
-Warning--I didn't find a database entry for "SYEPC"
-Warning--I didn't find a database entry for "PDG"
-Warning--I didn't find a database entry for "Wille"
 Warning--I didn't find a database entry for "sr72/2017"
 Warning--I didn't find a database entry for "pravidla"
 Warning--I didn't find a database entry for "Walter1999"
@@ -44,45 +35,45 @@ Warning--I didn't find a database entry for "CSN_ISO_690-2022"
 Warning--I didn't find a database entry for "CSN_ISO_7144-1997"
 Warning--I didn't find a database entry for "CSN_ISO_31-11"
 Warning--I didn't find a database entry for "Farkasova23:CSNISO6902022komentar"
-You've used 3 entries,
+You've used 6 entries,
             2616 wiz_defined-function locations,
-            642 strings with 5999 characters,
-and the built_in function-call counts, 1276 in all, are:
-= -- 112
+            645 strings with 6250 characters,
+and the built_in function-call counts, 1961 in all, are:
+= -- 187
 > -- 79
 < -- 1
-+ -- 26
-- -- 23
-* -- 82
-:= -- 216
-add.period$ -- 13
-call.type$ -- 3
-change.case$ -- 3
++ -- 27
+- -- 21
+* -- 96
+:= -- 270
+add.period$ -- 22
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 30
-empty$ -- 117
-format.name$ -- 23
-if$ -- 331
+cite$ -- 6
+duplicate$ -- 51
+empty$ -- 228
+format.name$ -- 21
+if$ -- 564
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 6
 missing$ -- 2
-newline$ -- 22
+newline$ -- 37
 num.names$ -- 3
-pop$ -- 22
+pop$ -- 58
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 81
+skip$ -- 153
 stack$ -- 0
 substring$ -- 20
-swap$ -- 5
+swap$ -- 8
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 4
-width$ -- 4
-write$ -- 44
-(There was 1 error message)
+width$ -- 7
+write$ -- 74
+(There were 9 warnings)
