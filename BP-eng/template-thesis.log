@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  12 NOV 2026 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  19 NOV 2026 21:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1256,7 +1256,7 @@ c}{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 51.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 54.
 )
 \tf@toc=\write4
 \openout4 = `template-thesis.toc'.
@@ -1292,32 +1292,35 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 ]
 \openout2 = `text/introduction.aux'.
 
- (text/introduction.tex
-Overfull \hbox (44.8736pt too wide) in paragraph at lines 27--36
-[] \T1/lmr/m/n/12 Har-mon-ické £íslo je bezrozm¥rné
- []
-
-[23
+ (text/introduction.tex [23
 
 
 {C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<pict/cern_accelerator_complex.png, id=438, 5591.7708pt x 4552.5282pt>
+<pict/quadrupole_holzer2018.png, id=443, 377.41pt x 235.88126pt>
+File: pict/quadrupole_holzer2018.png Graphic file (type png)
+<use pict/quadrupole_holzer2018.png>
+Package pdftex.def Info: pict/quadrupole_holzer2018.png  used on input line 54.
+
+(pdftex.def)             Requested size: 341.43439pt x 213.39613pt.
+ [24 <./pict/quadrupole_holzer2018.png>]
+<pict/cern_accelerator_complex.png, id=467, 5591.7708pt x 4552.5282pt>
 File: pict/cern_accelerator_complex.png Graphic file (type png)
 <use pict/cern_accelerator_complex.png>
 Package pdftex.def Info: pict/cern_accelerator_complex.png  used on input line 
-57.
+85.
 (pdftex.def)             Requested size: 426.79137pt x 347.46841pt.
+ [25] [26 <./pict/cern_accelerator_complex.png (PNG copy)>]
+Overfull \hbox (16.64876pt too wide) in paragraph at lines 108--115
+\T1/lmr/m/it/12 nance\T1/lmr/m/n/12 ), kterou budí ex-trak£ní sex-tupólové mag-
+nety [[]]. Síla sex-tupólu roste s kvadrátem
+ []
 
-Underfull \vbox (badness 4217) has occurred while \output is active []
-
- [24]
-[25 <./pict/cern_accelerator_complex.png (PNG copy)>] [26]) [27{C:/Users/miri-/
-AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [28]
+[27] [28]) [29{C:/Users/miri-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/
+lm-mathex.enc}] [30]
 \openout2 = `text/objectives.aux'.
 
-
-(text/objectives.tex) [29
+ (text/objectives.tex) [31
 
 
 
@@ -1325,109 +1328,121 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [28]
 ]
 \openout2 = `text/solution.aux'.
 
- (text/solution.tex [30
+ (text/solution.tex [32
 
 
 
 
-]) [31]
+])
+[33]
 \openout2 = `text/results.aux'.
 
- (text/results.tex
-[32
+ (text/results.tex [34
 
 
 
 
 ]
 
-LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 6.
+LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 6.
 
 
-LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 12.
+LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 12.
 
 
-LaTeX Warning: Citation `pravidla' on page 33 undefined on input line 12.
+LaTeX Warning: Citation `pravidla' on page 35 undefined on input line 12.
 
-[33]
+[35]
 
-LaTeX Warning: Citation `Walter1999' on page 34 undefined on input line 19.
+LaTeX Warning: Citation `Walter1999' on page 36 undefined on input line 19.
 
 
-LaTeX Warning: Citation `Svacina1999IEEE' on page 34 undefined on input line 19
+LaTeX Warning: Citation `Svacina1999IEEE' on page 36 undefined on input line 19
 .
 
 
-LaTeX Warning: Citation `RajmicSysel2002' on page 34 undefined on input line 19
+LaTeX Warning: Citation `RajmicSysel2002' on page 36 undefined on input line 19
 .
 
 
-LaTeX Warning: Citation `CSN_ISO_690-2022' on page 34 undefined on input line 2
+LaTeX Warning: Citation `CSN_ISO_690-2022' on page 36 undefined on input line 2
 2.
 
 
-LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 34 undefined on input line 
+LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 36 undefined on input line 
 22.
 
 
-LaTeX Warning: Citation `CSN_ISO_31-11' on page 34 undefined on input line 22.
+LaTeX Warning: Citation `CSN_ISO_31-11' on page 36 undefined on input line 22.
 
 
-LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 34 undefine
+LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 36 undefine
 d on input line 24.
 
-[34]) [35]
+[36]) [37]
 \openout2 = `text/conclusion.aux'.
 
- (text/conclusion.tex [36
+ (text/conclusion.tex [38
 
 
 
 
-]) [37]
+]) [39]
 \openout2 = `text/bibliography.aux'.
 
  (text/bibliography.tex
-(template-thesis.bbl [38
+(template-thesis.bbl [40
 
 
 
 
 ]
-Underfull \hbox (badness 1661) in paragraph at lines 4--8
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
+[]\T1/lmr/m/n/12 F. Tecker.  Lon-gi-tu-di-nal beam dy-nam-ics in cir-cu-lar ac-
+cel-er-a-tors.
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 14--19
+\T1/lmr/m/n/12 arXiv:2011.02932 [physics.acc-ph], 2020.  P°ed-ná²ka CERN Ac-cel
+-er-a-tor
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 44--48
 []\T1/lmr/m/n/12 Accelerators.  [on-line], 11 2026.  URL: []$\T1/lmtt/m/n/12 <[
 ]https : / / home . cern / science /
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 10--14
+Underfull \hbox (badness 1082) in paragraph at lines 50--54
 []\T1/lmr/m/n/12 Accelerators.  [on-line], 11 2026.  URL: []$\T1/lmtt/m/n/12 <[
 ]https : / / www . gml . cz / uploads /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 \T1/lmtt/m/n/12 2026-[]11-[]10 % 20-[] % 20Prezentace % 20CERN % 20Jiri % 20Jal
 uvka % 2C % 20Tomas %
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 25--29
+Underfull \hbox (badness 1661) in paragraph at lines 56--60
 []\T1/lmr/m/n/12 Accelerators.  [on-line], 11 2026.  URL: []$\T1/lmtt/m/n/12 <[
 ]https : / / home . cern / science /
  []
 
-)) [39]
+)) [41]
 \openout2 = `text/abbreviation.aux'.
 
- (text/abbreviation.tex [40
+ (text/abbreviation.tex [42
 
 
 
 
-]) [41
+]) [43
 
-] [42
+] [44
 
 
 
@@ -1435,11 +1450,11 @@ Underfull \hbox (badness 1661) in paragraph at lines 25--29
 \tf@toa=\write9
 \openout9 = `template-thesis.toa'.
 
- [43]
+ [45]
 \openout2 = `text/appendix.aux'.
 
 
-(text/appendix.tex [44
+(text/appendix.tex [46
 
 
 ]
@@ -1447,9 +1462,9 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 9.
- [45] [46
+ [47] [48
 
-] [47] [48
+] [49] [50
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <17.28> not available
@@ -1492,7 +1507,7 @@ although it is yet undefined on input line 95.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 99.
  (text/abbreviation.tex) (text/abbreviation.tex)
-[49]
+[51]
 (C:\Users\miri-\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -1501,14 +1516,14 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50
+ [52
 
 ]
-[51] [52
+[53] [54
 
-] [53] [54
+] [55] [56
 
-]) [55]
+]) [57]
 \c@page@count=\count359
  (template-thesis.aux (text/introduction.aux)
 (text/objectives.aux) (text/solution.aux) (text/results.aux)
@@ -1523,14 +1538,14 @@ L3 programming layer <2026-08-10>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `template-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7335389293152F069FF2AE8DDA6109E0;9070.
+(rerunfilecheck)             Checksum: D5A2D70A58F605E6120D6D05939A0863;9070.
  )
 (\end occurred when \ifx on line 18 was incomplete) 
 Here is how much of TeX's memory you used:
- 21245 strings out of 467441
- 341228 string characters out of 5407591
- 1003617 words of memory out of 5000000
- 49816 multiletter control sequences out of 15000+600000
+ 21267 strings out of 467441
+ 341718 string characters out of 5407591
+ 1005129 words of memory out of 5000000
+ 49829 multiletter control sequences out of 15000+600000
  815730 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,17n,90p,978b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1560,9 +1575,9 @@ al/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/miri-/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on template-thesis.pdf (55 pages, 7357402 bytes).
+Output written on template-thesis.pdf (57 pages, 7560187 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
- 460 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
+ 465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

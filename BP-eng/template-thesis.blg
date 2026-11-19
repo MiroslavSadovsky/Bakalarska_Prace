@@ -35,45 +35,45 @@ Warning--I didn't find a database entry for "CSN_ISO_690-2022"
 Warning--I didn't find a database entry for "CSN_ISO_7144-1997"
 Warning--I didn't find a database entry for "CSN_ISO_31-11"
 Warning--I didn't find a database entry for "Farkasova23:CSNISO6902022komentar"
-You've used 6 entries,
+You've used 9 entries,
             2616 wiz_defined-function locations,
-            645 strings with 6250 characters,
-and the built_in function-call counts, 1961 in all, are:
-= -- 187
-> -- 79
-< -- 1
-+ -- 27
-- -- 21
-* -- 96
-:= -- 270
-add.period$ -- 22
-call.type$ -- 6
-change.case$ -- 6
+            667 strings with 6793 characters,
+and the built_in function-call counts, 3060 in all, are:
+= -- 314
+> -- 95
+< -- 3
++ -- 33
+- -- 24
+* -- 140
+:= -- 392
+add.period$ -- 35
+call.type$ -- 9
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 51
-empty$ -- 228
-format.name$ -- 21
-if$ -- 564
+cite$ -- 9
+duplicate$ -- 87
+empty$ -- 363
+format.name$ -- 24
+if$ -- 893
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 2
-newline$ -- 37
-num.names$ -- 3
-pop$ -- 58
+int.to.str$ -- 9
+missing$ -- 3
+newline$ -- 55
+num.names$ -- 7
+pop$ -- 90
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 153
+skip$ -- 246
 stack$ -- 0
-substring$ -- 20
-swap$ -- 8
-text.length$ -- 3
+substring$ -- 54
+swap$ -- 24
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 4
-width$ -- 7
-write$ -- 74
+while$ -- 10
+width$ -- 10
+write$ -- 114
 (There were 9 warnings)

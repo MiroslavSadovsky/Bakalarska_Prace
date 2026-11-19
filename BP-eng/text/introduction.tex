@@ -32,13 +32,41 @@ Pro zrychlení částic je potřeba elektrické pole. Aby však částice obíha
 	$f_\text{rev}$ & oběžná frekvence částice & $[\text{Hz}]$ \\
 	$h$ & harmonické číslo () & $[-]$ \\
 \end{tabular}
-Harmonické číslo je bezrozměrné celé číslo, které říká, kolikrát pole v dutině zakmitá během jednoho oběhu částice. Zároveň udává, kolik stabilních oblastí je rozmístěno po obvodu.
 
-%RF dutiny – tvůj stávající odstavec o střídavém poli. Doplň, že pole kmitá s frekvencí $f_\text{RF} = h\,f_\text{rev}$, a proto je svazek rozdělen do shluků. Sem patří obrázek dutiny.
-%Dipóly – ohýbají dráhu do kruhu. S rostoucí energií musí růst i jejich pole, odtud název „synchrotron“.
-%Kvadrupóly a betatronové kmity – fokusují svazek. Síla roste s výchylkou, takže působí jako pružina a částice kolem ideální dráhy kmitají. To jsou betatronové kmity.
-%Tune – počet betatronových kmitů za jeden oběh. Závisí na síle kvadrupólů. Když je blízko racionálního čísla, hrozí rezonance. Tohle je věta, na kterou pak odkážeš v extrakci.
-%Sextupóly – nelineární magnety. Korigují chromaticitu a při pomalé extrakci budí rezonanci. Tady stačí zmínka, detaily jsou v podkapitole o extrakci.
+Harmonické číslo je bezrozměrné celé číslo, které říká, kolikrát pole v dutině zakmitá během jednoho oběhu částice. Zároveň udává, kolik stabilních oblastí je rozmístěno po obvodu, svazek je tedy rozdělen do shluků.
+
+%IDEÁLNĚ SEM OBRÁZEK RF DUTINY
+
+
+\subsubsection{Dipóly}
+Dipóly jsou elektromagnety s dvěma magnetickými póly. Jejich působením se ohýbá dráha svazků do uzavřeného kruhu. S rostoucí energií urychlovaných částic musí růst magnetická indukčnost. \cite{Tecker2020} 
+
+\subsubsection{Kvadrupóly a betatronové kmity}
+Částice ve svazku se polohově nepatrně liší, bez vnějšího působení by se tedy vychýlily a narazily do stěny vakuové trubice. K takzvané fokusaci svazku se používají kvadrupólové magnety. Kvadrupólové magnety na svazek působí podobně jako optické čočky \cite{cern_how_accelerator_works}. Kvadrupól se nechází u urychlovačů ve formě čtyř magnetů. Pole kvadrupólu je na ose nulové a roste lineárně s výchylkou částice, takže na ni působí silou úměrnou výchylce, podobně jako
+pružina \cite{Holzer2018}. Kvadrupól však vždy fokusuje pouze v~jedné rovině a ve druhé svazek rozostřuje. Fokusace v~obou rovinách se
+proto dosahuje střídáním fokusujících a defokusujících
+kvadrupólů~\cite{Holzer2018}. Prstenec SPS je tvořen šesti
+sextanty, z~nichž každý obsahuje 18 takových
+buněk~\cite[kap.~IV.A]{Etisken2023}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{pict/quadrupole_holzer2018.png}
+	\caption{Superconducting quadrupole magnet in the LHC storage ring \cite[ch. 2.2]{Holzer2018}} 
+	\label{fig:quadrupole_holzer2018}
+\end{figure}
+
+Vratná síla kvadrupólů způsobuje, že částice kolem ideální dráhy příčně
+kmitají. Tyto kmity se nazývají betatronové a počet betatronových kmitů
+během jednoho oběhu se nazývá tune~\cite[kap.~3]{Holzer2018}. V~SPS je
+nominální horizontální tune $\nu_x = 26{,}66$ a vertikální
+$\nu_y = 26{,}58$~\cite{Velotti}. Tune závisí na síle kvadrupólů, a lze ho
+proto měnit nastavením jejich proudu. Této vlastnosti se využívá při
+pomalé extrakci~\cite{Velotti} (viz kap.~\ref{sec:pomala_extrakce}). Když je hodnota tune blízko racionálního čísla, hrozí rezonance.
+
+%DOPLNIT, DODĚLAT!!!
+\subsubsection{Sextupóly}
+Sextupóly pracují na podobném principu jako kvadrupóly, jsou to ale nelineární magnety. Působící síla na částici zde roste se čtvercem vzdálenosti. Sextupóly korigují chromaticitu a při pomalé extrakci budí rezonanci.\ref{sec:pomala_extrakce} Chromaticiotu se myslí pokles účinosti při vyšší hybnosti částice.\cite[ch. 4.2]{Holzer2018}
 
 
 \subsection{Komplex urychlovačů CERN}
@@ -67,64 +95,66 @@ protony urychlovány na $450\,\text{GeV}$, pro experimenty v~North Area na
 $400\,\text{GeV}$~\cite{Velotti}.
 
 \subsection{Pomalá rezonanční extrakce}
-%Svazek lze z~kruhového urychlovače vyvést dvěma způsoby. Při rychlé extrakci
-%vychýlí rychlý magnet celý svazek během jediného oběhu. Takto se
-%plní například LHC. Experimenty s~pevným terčem však vyžadují, aby byly
-%protony na terč dodávány co nejrovnoměrněji, tedy s~co nejvyšším tzv.
-%\emph{duty factorem} (viz kap.~\ref{sec:spill}). To vede k~nutnosti pomalé
-%extrakce, při níž se svazek vyvádí postupně po dobu několika
-%sekund~\cite{Velotti}.
-%
-%V~SPS se k~pomalé extrakci využívá "third-integer" rezonanci \cite{Velotti}. Horizontální
-%betatronový tune svazku $\nu_x$ se přiblíží k~rezonanční podmínce
-%\begin{equation}
-%	3\nu_x = n, \qquad n \in \mathbf{Z},
-%	\label{eq:rezonance}
-%\end{equation}
-%%třetí řád, protože se opakuje fáze po třech obězích
-%přičemž nominální hodnota pro svazky pro pevný terč je
-%$\nu_x = 26{,}66$~\cite{Velotti}, tedy těsně u~hodnoty $80/3$. Rezonanci
-%budí čtyři extrakční sextupólové magnety~\cite{Velotti}. Jejich pole roste
-%s~kvadrátem výchylky částice, a proto do pohybu vnáší nelinearitu.
-%
-%Vliv rezonance je nejlépe vidět ve fázovém prostoru, tedy v~rovině tvořené
-%polohou částice $x$ a jejím úhlem $x'$. Nelinearita rozdělí fázový prostor na
-%dvě oblasti. Uvnitř trojúhelníkové oblasti jsou trajektorie částic stabilní.
-%Vně této oblasti amplituda kmitů s~každým oběhem roste. Hranice mezi oběma
-%oblastmi se nazývá separatrix~\cite{TODO_benedikt}. Čím blíže je tune
-%rezonanci, tím menší je stabilní oblast.
-%
-%Aby byly částice vyváděny postupně, využívá se závislosti tune na hybnosti
-%částice. Tuto závislost popisuje chromaticita $\xi_x$ a pro částici
-%s~relativní odchylkou hybnosti $\delta$ platí
-%\begin{equation}
-%	\nu_x(\delta) = \nu_x\,(1 + \xi_x \delta).
-%	\label{eq:chromaticita}
-%\end{equation}
-%V~SPS je horizontální chromaticita nastavena na $\xi_x = -1$. Síla
-%kvadrupólů se během extrakce plynule mění, takže rezonance postupně
-%\uv{projíždí} rozložením hybností svazku a částice s~různou hybností jsou
-%vyváděny v~různých časech. Rychlost této změny je nastavena tak, aby
-%intenzita vyvedeného svazku byla co nejkonstantnější~\cite{Velotti}.
-%
-%Aby měl svazek dostatečně široké a rovnoměrné rozložení hybností, provádí se
-%před extrakcí tzv. RF gymnastika. Fáze urychlovacího pole se nakrátko přepne
-%do nestabilní polohy, poté vrátí zpět a nakonec se napětí všech dutin nastaví
-%na nulu. Svazek se následně rozplyne do spojitého proudu (debunchování), čímž
-%se omezí modulace extrahovaného svazku na frekvenci $200\,\text{MHz}$
-%\cite{Velotti}.
-%
-%Částice, které opustí stabilní oblast, se s~rostoucí amplitudou přibližují
-%k~elektrostatickému septu ZS. To je tenká řada drátů oddělující cirkulující
-%svazek od extrakčního kanálu. Svazek je k~septu přiblížen lokální deformací
-%uzavřené dráhy pomocí pěti korekčních magnetů s~maximální výchylkou
-%$48\,\text{mm}$. Septum ZS odkloní částice do extrakčního kanálu
-%a magnetická septa MST a MSE je dále vychýlí do přenosové linky TT20
-%v~úseku LSS2. Takto lze vyvést až $4\cdot10^{13}$ protonů o~energii
-%$400\,\text{GeV}$ za jeden spill~\cite{Velotti}.
+\label{sec:pomala_extrakce}
+
+Svazek lze z kruhového urychlovače vyvést dvěma způsoby. Při rychlé extrakci
+vychýlí rychlý magnet celý svazek během jediného oběhu. Takto se
+plní (injektuje) například LHC. Experimenty s pevným terčem však vyžadují, aby byly
+protony na terč dodávány co nejrovnoměrněji, tedy s~co nejvyšším tzv.
+\emph{duty factorem} (viz kap.~\ref{sec:spill}). To vede k~nutnosti pomalé
+extrakce, při níž se svazek vyvádí postupně po dobu několika
+sekund~\cite{Velotti}.
+
+Pro pomalou extrakci se v~SPS využívá třetinová rezonance (\emph{third-integer	resonance}), kterou budí extrakční sextupólové magnety~\cite{Velotti}. Síla
+sextupólu roste s~kvadrátem výchylky částice~\cite[kap.~4.2]{Holzer2018}, takže
+při každém průletu částici mírně vychýlí. Horizontální tune svazku se nastaví
+těsně vedle hodnoty $80/3$, nominálně na $\nu_x = 26{,}66$~\cite{Velotti}.
+Částice se pak v~sextupólech objevuje po každých třech obězích přibližně ve
+stejné fázi svého betatronového kmitu, jejich působení se proto nevyruší, ale
+sčítá, a amplituda kmitů roste.
+
+% 3) KDO uteče a KAM (tvůj aktivní ¶2 + počet protonů z ř. 82–83)
+Protože síla sextupólů roste s~výchylkou, rezonance ovlivňuje především
+částice s~velkou amplitudou kmitů. Ve fázovém prostoru, tedy v~rovině tvořené
+polohou a úhlem částice, tak vznikne stabilní oblast trojúhelníkového tvaru
+ohraničená tzv. separatrix. Částice uvnitř této oblasti zůstávají na stabilních
+trajektoriích. Částicím vně oblasti amplituda s~každými třemi oběhy roste, až
+dosáhnou elektrostatického septa ZS, které je odkloní do extrakčního kanálu
+a dále do přenosové linky TT20~\cite{Velotti}. Tímto způsobem lze vyvést až
+$4\cdot10^{13}$ protonů za jeden spill~\cite{Velotti}.
+
+% (volitelně) obrázek fázového prostoru u septa
+% \begin{figure}[htbp]
+	%   \centering
+	%   \includegraphics[width=0.6\textwidth]{pict/velotti_fig5.png}
+	%   \caption{Horizontální fázový prostor na vstupu elektrostatického septa ZS
+		%            při pomalé extrakci. Převzato z~\cite[obr.~5]{Velotti},
+		%            licence CC BY 3.0.}
+	%   \label{fig:velotti_faze}
+	% \end{figure}
+
+% 4) PROČ to trvá sekundy (tvůj aktivní ¶3)
+Velikost stabilní oblasti závisí na tom, jak blízko je tune rezonanci. Během
+extrakce se síla kvadrupólů plynule mění, stabilní oblast se zmenšuje a částice
+z~ní postupně vystupují~\cite{Velotti}. Díky chromaticitě $\xi_x = -1$ má
+každá částice tune závislý na své hybnosti, a rezonance se tak dosahuje
+postupně pro částice s~různou hybností~\cite{Velotti}. Svazek je tím vyváděn
+rovnoměrně po dobu několika sekund.
+
+% 5) CO se děje se shluky (z tvých ř. 69–74, zkráceno)
+Aby měl svazek pro tento proces dostatečně široké rozložení hybností,
+provádí se před extrakcí tzv. RF gymnastika, která rozložení hybností
+rozšíří. Poté se napětí všech urychlovacích dutin nastaví na nulu a svazek
+se rozplyne do spojitého proudu (debunchování). Tím se omezí modulace
+vyvedeného svazku na frekvenci urychlovacího pole $200\,\text{MHz}$~\cite{Velotti}.
+
+% 6) CO z toho plyne pro měření (tvůj aktivní ¶4)
+Rychlost extrakce je tedy velmi citlivá na přesnou hodnotu tune. Jakékoli
+zvlnění proudu v~kvadrupólových magnetech se proto projeví jako modulace
+intenzity vyvedeného svazku (viz kap.~\ref{sec:spill}).
 
 \subsection{Spill a frekvence zájmu}
-
+\label{sec:spill}
 %Spill je souvislý tok protonů vyvedených z~SPS během jedné pomalé
 %extrakce. V~současném provozu trvá $4{,}8\,\text{s}$
 %\cite{DAQ_Belohrad, TODO_Benitez2023}, což při oběžné frekvenci

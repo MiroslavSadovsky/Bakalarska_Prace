@@ -1,5 +1,45 @@
 \begin{thebibliography}{1}
 
+\bibitem{Holzer2018}
+B.~J. Holzer.
+\newblock Transverse beam dynamics.
+\newblock In R.~Bailey, editor, {\em Proceedings of the CAS--CERN Accelerator
+  School: Free Electron Lasers and Energy Recovery Linacs}, volume 1/2018 of
+  {\em CERN Yellow Reports: School Proceedings}, pages 145--176, Geneva, 2018.
+  CERN.
+\newblock \href {https://doi.org/10.23730/CYRSP-2018-001.145}
+  {\path{doi:10.23730/CYRSP-2018-001.145}}.
+
+\bibitem{Tecker2020}
+F.~Tecker.
+\newblock Longitudinal beam dynamics in circular accelerators.
+\newblock arXiv:2011.02932 [physics.acc-ph], 2020.
+\newblock Přednáška CERN Accelerator School.
+\newblock URL: \url{https://arxiv.org/abs/2011.02932}.
+
+\bibitem{cern_how_accelerator_works}
+How an accelerator works.
+\newblock [online], 11 2026.
+\newblock URL:
+  \url{<https://home.cern/science/accelerators/how-accelerator-works>}.
+
+\bibitem{Etisken2023}
+O.~Etisken, F.~Antoniou, Y.~Papaphilippou, T.~Tydecks, F.~Zimmermann, A.~K.
+  Ciftci, and K.~Oide.
+\newblock {CERN} {Super Proton Synchrotron} and an alternative design as
+  prebooster ring for the future circular collider {$e^+e^-$} injector complex.
+\newblock {\em Physical Review Accelerators and Beams}, 26(8):081601, 2023.
+\newblock \href {https://doi.org/10.1103/PhysRevAccelBeams.26.081601}
+  {\path{doi:10.1103/PhysRevAccelBeams.26.081601}}.
+
+\bibitem{Velotti}
+F.~M. Velotti, W.~Bartmann, T.~Bohl, C.~Bracco, K.~Cornelis, M.~Fraser,
+  B.~Goddard, V.~Kain, and L.~Stoel.
+\newblock Characterisation of the {SPS} slow-extraction parameters.
+\newblock In {\em Proceedings of IPAC2016}, Busan, Korea, 2016.
+\newblock Paper THPOR055.
+\newblock URL: \url{https://cds.cern.ch/record/2207488}.
+
 \bibitem{cern_accelerator_complex}
 Accelerators.
 \newblock [online], 11 2026.
@@ -12,15 +52,6 @@ Accelerators.
 \newblock URL:
   \url{<https://www.gml.cz/uploads/2026-11-10%20-%20Prezentace%20CERN%20Jiri%20Jaluvka%2C%20Tomas%20Dokoupil.pdf>}.
 
-\bibitem{Etisken2023}
-O.~Etisken, F.~Antoniou, Y.~Papaphilippou, T.~Tydecks, F.~Zimmermann, A.~K.
-  Ciftci, and K.~Oide.
-\newblock {CERN} {Super Proton Synchrotron} and an alternative design as
-  prebooster ring for the future circular collider {$e^+e^-$} injector complex.
-\newblock {\em Physical Review Accelerators and Beams}, 26(8):081601, 2023.
-\newblock \href {https://doi.org/10.1103/PhysRevAccelBeams.26.081601}
-  {\path{doi:10.1103/PhysRevAccelBeams.26.081601}}.
-
 \bibitem{cern_LHC}
 Accelerators.
 \newblock [online], 11 2026.
@@ -32,13 +63,5 @@ M.~Martin~Nieto, E.~Balci, P.~Pacner, S.~Benitez~Berrocal, and D.~Belohrad.
 \newblock {SPS NA SPILL} monitor digital acquisition chain.
 \newblock Engineering Specification SPSX-B-ES-0005, CERN, Geneva, May 2026.
 \newblock Verze 1.0, EDMS 3160611.
-
-\bibitem{Velotti}
-F.~M. Velotti, W.~Bartmann, T.~Bohl, C.~Bracco, K.~Cornelis, M.~Fraser,
-  B.~Goddard, V.~Kain, and L.~Stoel.
-\newblock Characterisation of the {SPS} slow-extraction parameters.
-\newblock In {\em Proceedings of IPAC2016}, Busan, Korea, 2016.
-\newblock Paper THPOR055.
-\newblock URL: \url{https://cds.cern.ch/record/2207488}.
 
 \end{thebibliography}
